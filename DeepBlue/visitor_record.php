@@ -15,8 +15,15 @@ if (isset($_POST['visitor_update_btn'])) {
     $edit_time = $_POST['edit_time'];
 
     $name = $_SESSION['username'];
+    if (isset($_POST["user_hNo"])) {
+        $framework = '';
+        foreach ($_POST["user_hNo"] as $row) {
+            $val = (string)$row;
+            $framework .= $val . ', ';
+        }
+    }
 
-    $query = "INSERT INTO dailyrecord (id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time,Permission,securityPerson) VALUES ('$edit_id','$edit_name','$edit_hNo','$edit_phNo','$edit_aadharNo','$edit_dgNo','$edit_temp','$edit_time','Accepted','$name')";
+    $query = "INSERT INTO dailyrecord (id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time,Permission,securityPerson) VALUES ('$edit_id','$edit_name','" . $framework . "','$edit_phNo','$edit_aadharNo','$edit_dgNo','$edit_temp','$edit_time','Accepted','$name')";
     $query_run = mysqli_query($connection, $query);
     if ($query_run) {
         $_SESSION['status'] = "Detail Added";
@@ -30,7 +37,7 @@ if (isset($_POST['visitor_update_btn'])) {
 }
 
 /****************************************************************************************************************** */
-echo "hello";
+// echo "hello";
 
 /*****************************DECLINE BUTTON FUNCTIONALITIES ********************************************************/
 if (isset($_POST['decline_id'])) {

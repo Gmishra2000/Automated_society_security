@@ -22,6 +22,11 @@ include('includes/navbar.php');
                         <label>Name</label>
                         <input type="text" name="Name" class="form-control" placeholder="Enter Name" required>
                     </div>
+                    <div class="form-group">
+                        <label>House Number</label>
+
+                        <input type="text" name="houseNo" class="form-control" placeholder="Enter House No of Society Registered as Resident" required>
+                    </div>
 
                     <div class="form-group">
                         <label>Aadhar Number</label>
@@ -67,7 +72,7 @@ include('includes/navbar.php');
 
                 <div class="table-responsive">
                     <?php
-                    $query = "SELECT * FROM  admin_visitor";
+                    $query = "SELECT * FROM  visitor";
                     $query_run = mysqli_query($connection, $query);
 
                     if (mysqli_num_rows($query_run) > 0) {
@@ -83,7 +88,7 @@ include('includes/navbar.php');
                                     <th>ID</th>
                                     <th>NAME</th>
 
-
+                                    <th>HOUSE NUMBER</th>
                                     <th>AADHAR NUMBER</th>
                                     <th>PHONE NUMBER</th>
                                     <th>DESIGNATION</th>
@@ -99,7 +104,7 @@ include('includes/navbar.php');
                                     <tr>
                                         <td><?php echo $row['id'] ?></td>
                                         <td><?php echo $row['Name'] ?></td>
-
+                                        <td><?php echo $row['houseNo'] ?></td>
                                         <td><?php echo $row['aadharNo'] ?></td>
                                         <td><?php echo $row['phoneNumber'] ?></td>
                                         <td><?php echo $row['designation'] ?></td>

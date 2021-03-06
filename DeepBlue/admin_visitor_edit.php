@@ -19,7 +19,7 @@ include('includes/navbar.php');
         if (isset($_POST['edit_data_btn'])) {
             $id = $_POST['edit_id'];
 
-            $query = "SELECT * FROM admin_visitor where id='$id'";
+            $query = "SELECT * FROM visitor where id='$id'";
             $query_run = mysqli_query($connection, $query);
 
             foreach ($query_run as $row) {
@@ -29,6 +29,10 @@ include('includes/navbar.php');
                     <div class="form-group">
                         <label>Name</label>
                         <input type="text" name="edit_name" value="<?php echo $row['Name'] ?>" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>House Number</label>
+                        <input type="text" name="edit_hNo" value="<?php echo $row['houseNo'] ?>" class="form-control">
                     </div>
 
                     <div class="form-group">

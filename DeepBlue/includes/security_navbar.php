@@ -239,8 +239,8 @@
 
 
                                    <form action="visitor_record.php" method="POST">
-                                       <input type="number" name="decline_id" value="<?php echo $row['id'] ?>">
-                                       <button type="submit" onclick="myConfirm();myFunction();" name="decline_btn" class="btn btn-danger col-lg " role="button" aria-pressed="true">Decline</button>
+                                       <input type="hidden" name="decline_id" value="<?php echo $row['id'] ?>">
+                                       <button type="submit" onclick="myConfirm('Are you sure that you want to delete this comment?');myFunction();" name="decline_btn" class="btn btn-danger col-lg " role="button" aria-pressed="true">Decline</button>
                                    </form>
 
                                </div>

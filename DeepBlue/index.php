@@ -80,7 +80,7 @@ include('includes/navbar.php');
               <div class="h5 mb-0 font-weight-bold text-gray-800">
 
                 <?php
-                $query = "SELECT id FROM admin_visitor ORDER BY id";
+                $query = "SELECT id FROM visitor ORDER BY id";
                 $query_run = mysqli_query($connection, $query);
 
                 $row = mysqli_num_rows($query_run);

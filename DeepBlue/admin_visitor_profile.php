@@ -72,7 +72,7 @@ include('includes/navbar.php');
                 // $row1 = mysqli_fetch_assoc($query1_run);
                 // // echo $row1['houseNo'];
                 // $data1 = $row1['houseNo'];
-                $query = "SELECT * FROM  admin_visitor ";
+                $query = "SELECT * FROM  visitor ";
 
                 $query_run = mysqli_query($connection, $query);
 
@@ -88,7 +88,7 @@ include('includes/navbar.php');
                             <tr>
                                 <th>ID</th>
                                 <th>NAME</th>
-
+                                <th>HOUSE NUMBER</th>
 
                                 <th>AADHAR NUMBER</th>
                                 <th>PHONE NUMBER</th>
@@ -105,6 +105,7 @@ include('includes/navbar.php');
                                 <tr>
                                     <td><?php echo $row['id'] ?></td>
                                     <td><?php echo $row['Name'] ?></td>
+                                    <td><?php echo $row['houseNo'] ?></td>
 
                                     <td><?php echo $row['aadharNo'] ?></td>
                                     <td><?php echo $row['phoneNumber'] ?></td>

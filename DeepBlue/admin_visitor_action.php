@@ -3,7 +3,7 @@ include('security.php');
 
 if (isset($_POST['admin_registerbtn'])) {
     $Name = $_POST['Name'];
-    // $houseNo = $_POST['houseNo'];
+    $houseNo = $_POST['houseNo'];
     $aadharNo = $_POST['aadharNo'];
     $phoneNumber = $_POST['phoneNumber'];
     $designation = $_POST['designation'];
@@ -40,12 +40,12 @@ if (isset($_POST['admin_registerbtn'])) {
 
 
 
-        $query = "INSERT INTO admin_visitor (Name,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$aadharNo','$phoneNumber','$designation','$images')";
+        $query = "INSERT INTO visitor (Name,houseNo,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$houseNo','$aadharNo','$phoneNumber','$designation','$images')";
         $query_run = mysqli_query($connection, $query);
 
-        // $last_id = mysqli_insert_id($connection);
-        // $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
-        // $query_map_run = mysqli_query($connection, $query_map);
+        $last_id = mysqli_insert_id($connection);
+        $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
+        $query_map_run = mysqli_query($connection, $query_map);
 
         // if (($query_run) === TRUE) {
         //     echo "New record created successfully";
@@ -92,13 +92,13 @@ if (isset($_POST['admin_registerbtn'])) {
 if (isset($_POST['register_update_btn'])) {
     $edit_id = $_POST['edit_id'];
     $edit_name = $_POST['edit_name'];
-
+    $edit_hNo =  $_POST['edit_hNo'];
     $edit_ano = $_POST['edit_ano'];
     $edit_phno = $_POST['edit_phno'];
     $edit_desgn = $_POST['edit_desgn'];
     $person_image = $_FILES['person_image']['name'];
 
-    $admin_query = "SELECT * FROM admin_visitor where id='$edit_id' ";
+    $admin_query = "SELECT * FROM visitor where id='$edit_id' ";
     $admin_query_run = mysqli_query($connection, $admin_query);
     foreach ($admin_query_run as $ad_row) {
         // echo $ad_row['images'];
@@ -118,7 +118,7 @@ if (isset($_POST['register_update_btn'])) {
     }
 
 
-    $query = "UPDATE admin_visitor SET Name='$edit_name' ,aadharNo='$edit_ano',phoneNumber='$edit_phno',designation='$edit_desgn',images='$image_data' WHERE id='$edit_id' ";
+    $query = "UPDATE visitor SET Name='$edit_name' ,houseNo='$edit_hNo',aadharNo='$edit_ano',phoneNumber='$edit_phno',designation='$edit_desgn',images='$image_data' WHERE id='$edit_id' ";
     $query_run = mysqli_query($connection, $query);
 
     if ($query_run) {
@@ -148,7 +148,7 @@ if (isset($_POST['admin_delete_btn'])) {
 
     $id = $_POST['delete_id'];
 
-    $delete_image_query = "SELECT * FROM admin_visitor where id='$id' ";
+    $delete_image_query = "SELECT * FROM visitor where id='$id' ";
     $delete_image_query_run = mysqli_query($connection, $delete_image_query);
     $row = mysqli_fetch_assoc($delete_image_query_run);
     //while ($row = mysqli_fetch_assoc($delete_image_query_run)) {
@@ -159,7 +159,7 @@ if (isset($_POST['admin_delete_btn'])) {
     //echo "</pre>";
     unlink("upload/visitor/" . $row['images']);
 
-    $query = "DELETE   FROM admin_visitor WHERE id='$id' ";
+    $query = "DELETE   FROM visitor WHERE id='$id' ";
     //var_dump($query);
     $query_run = mysqli_query($connection, $query);
 

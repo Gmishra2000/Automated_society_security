@@ -95,7 +95,7 @@ include('includes/navbar.php');
                                 <th>EMAIL</th>
                                 <th>House Number</th>
                                 <th>Phone Number</th>
-                                <th>PASSWORD</th>
+                                <!-- <th>PASSWORD</th> -->
                                 <!-- <th>UserType</th> -->
                                 <th>IMAGE</th>
                                 <th>EDIT</th>
@@ -112,7 +112,7 @@ include('includes/navbar.php');
                                     <td><?php echo $row['email'] ?></td>
                                     <td><?php echo $row['houseNo'] ?></td>
                                     <td><?php echo $row['phoneNo'] ?></td>
-                                    <td><?php echo $row['password'] ?></td>
+                                    <!-- <td><?php echo $row['password'] ?></td> -->
                                     <td><?php echo '<img src="upload/user/' . $row['images'] . '" width="100px;" height="100px" alt="Image">' ?> </td>
                                     <td>
                                         <form action="admin_user-edit.php" method="POST">

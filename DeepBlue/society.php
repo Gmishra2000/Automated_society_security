@@ -43,7 +43,7 @@ session_start();
                                 <input type="number" name="houseNo" placeholder="Enter House Number" required />
                             </div>
                             <div class="form-group">
-                                <label for="Unique_Id"><i class="fas fa-home"></i></label>
+                                <label for="Unique_Id"><i class="far fa-info-circle"></i></i></label>
                                 <input type="text" name="Unique_Id" placeholder="Enter Security Code" required />
                             </div>
                             <div class="form-group">

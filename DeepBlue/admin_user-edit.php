@@ -43,10 +43,10 @@ include('includes/navbar.php');
                         <label>Phone Number</label>
                         <input type="tel" name="edit_PhNo" value="<?php echo $row['phoneNo'] ?>" class="form-control">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>Password</label>
                         <input type="password" name="edit_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" value="<?php echo $row['password'] ?>" class="form-control">
-                    </div>
+                    </div> -->
                     <div class="form-group">
                         <label>Upload Image</label>
                         <input type="file" name="person_image" id="person_image" value="<?php echo $row['images'] ?>" class="form-control">
