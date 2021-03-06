@@ -24,12 +24,12 @@ if (isset($_POST['registerbtn'])) {
     //     echo "Error: " . $query_run . "<br>" . $connection->error;
     // }
 
-    if (file_exists("upload/visitor/" . $_FILES["person_image"]["name"])) {
-        $store  = $_FILES["person_image"]["name"];
-        $_SESSION['status'] = "Image already exists. '.$store.'";
-        $_SESSION['status_code'] = "Error";
-        header('Location: visitor_register.php');
-    } elseif (mysqli_num_rows($aadhar_query_run) > 0) {
+    // if (file_exists("upload/visitor/" . $_FILES["person_image"]["name"])) {
+    //     $store  = $_FILES["person_image"]["name"];
+    //     $_SESSION['status'] = "Image already exists. '.$store.'";
+    //     $_SESSION['status_code'] = "Error";
+    //     header('Location: visitor_register.php');
+    if (mysqli_num_rows($aadhar_query_run) > 0) {
         $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$id') ";
         $query_map_run = mysqli_query($connection, $query_map);
 

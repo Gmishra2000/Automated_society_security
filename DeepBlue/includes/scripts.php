@@ -13,11 +13,11 @@
  <!-- Page level plugins -->
  <!-- 2<script src="vendor/datatables/jquery.dataTables.min.js"></script> -->
  <!-- 3<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script> -->
-
+ <!--  -->
  <!-- Page level custom scripts -->
  <!-- <script src="js/demo/datatables-demo.js"></script> -->
  <!-- <script src="cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script> -->
-
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
  <!-- Page level plugins -->
  <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
@@ -57,11 +57,12 @@
      }
  </script>
 
- <!-- <script>
-     $(document).ready(function() {
-         $('#datatable').DataTable();
-     });
- </script> -->
+ <script>
+     function myConfirm() {
+         confirm("Do you want to decline?");
+     }
+ </script>
+
 
  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
  <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>

@@ -1,7 +1,7 @@
 <?php
 include('security.php');
 include('includes/header.php');
-include('includes/navbar.php');
+include('includes/security_navbar.php');
 ?>
 
 
@@ -32,7 +32,8 @@ include('includes/navbar.php');
                 // $row1 = mysqli_fetch_assoc($query1_run);
                 // // echo $row1['houseNo'];
                 // $data1 = $row1['houseNo'];
-                $query = "SELECT   * from dailyrecord";
+                $name = $_SESSION['username'];
+                $query = "SELECT   * from dailyrecord where securityPerson='$name'";
                 $query_run = mysqli_query($connection, $query);
 
                 if (mysqli_num_rows($query_run) > 0) {

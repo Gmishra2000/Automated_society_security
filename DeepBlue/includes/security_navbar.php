@@ -1,3 +1,17 @@
+   <?php
+    $query = "SELECT * FROM dailyvisit WHERE row_id=(SELECT max(row_id) FROM dailyvisit)";
+    $query_run = mysqli_query($connection, $query);
+    $row = mysqli_fetch_assoc($query_run);
+    // echo $row['id'];
+
+    $sql =
+        "SELECT * from `dailyvisit` where `status` = 'unread' order by `date` DESC";
+    $result1 = $connection->query($sql);
+
+
+    // $result1->num_rows;
+    ?>
+
    <!-- Sidebar -->
    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -10,11 +24,11 @@
        </a>
 
        <!-- Divider -->
-       <hr class="sidebar-divider my-0">
+       <!-- <hr class="sidebar-divider my-0"> -->
 
        <!-- Nav Item - Dashboard -->
        <li class="nav-item active">
-           <a class="nav-link" href="user_index.php">
+           <a class="nav-link" href="security_page.php">
                <i class="fas fa-fw fa-tachometer-alt"></i>
                <span>Security Dashboard</span></a>
        </li>
@@ -30,12 +44,7 @@
 
 
        <!-- Divider -->
-       <hr class="sidebar-divider">
-
-
-       -->
-
-
+       <!-- <hr class="sidebar-divider"> -->
 
 
        <li class="nav-item">
@@ -43,12 +52,17 @@
                <i class="fas fa-fw fa-chart-area"></i>
                <span>My Profile</span> <input type="hidden"></a>
        </li>
+       <li class="nav-item">
+           <a class="nav-link" href="visitor_auth.php">
+               <i class="fas fa-fw fa-chart-area"></i>
+               <span>Visitor Entry Report</span> <input type="hidden"></a>
+       </li>
 
 
 
 
 
-       -->
+
 
 
 
@@ -98,7 +112,142 @@
                    </li>
 
                    <!-- Nav Item - Alerts -->
+                   <li class="nav-item dropdown no-arrow mx-1">
+                       <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="fas fa-bell fa-fw" aria-hidden="true"></i>
+                           <!-- Counter - Alerts -->
+                           <span class="badge badge-danger badge-counter" id="noti_number"></span>
+                       </a>
 
+                       <script type="text/javascript">
+                           // function myRemove() {
+                           //   var element = document.getElementById("noti_number").innerHTML;
+                           //   //console.log(this.responseText);
+                           //   // element.classList.remove("container");
+                           // }
+                           // let number = 0;
+
+                           function loadDoc() {
+
+
+                               setInterval(function() {
+
+                                   var xhttp = new XMLHttpRequest();
+                                   xhttp.onload = function() {
+                                       if (this.readyState == 4 && this.status == 200) {
+                                           document.getElementById("noti_number").innerHTML = this.responseText;
+                                           // console.log(noti_number);
+
+                                       }
+                                   };
+                                   xhttp.open("GET", "view.php", false);
+                                   xhttp.send();
+
+                               }, 1000);
+
+
+                           }
+                           loadDoc();
+                       </script>
+                       <script>
+                           function myFunction() {
+                               var xhttp = new XMLHttpRequest();
+                               xhttp.onload = function() {
+                                   if (this.readyState == 4 && this.status == 200) {
+                                       document.getElementById("noti_number").innerHTML = this.responseText;
+
+
+
+                                   }
+                               };
+                               xhttp.open("POST", "view.php", false);
+                               xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                               xhttp.send("fname=false");
+
+                           }
+                           loadDoc();
+                       </script>
+
+                       <!-- Dropdown - Alerts -->
+                       <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                           <h6 class="dropdown-header">
+                               Alerts Center
+                           </h6>
+                           <a class="dropdown-item d-flex align-items-center" href="#">
+                               <div class="mr-3">
+                                   <div class="icon-circle bg-primary">
+                                       <i class="fas fa-file-alt text-white"></i>
+                                   </div>
+                               </div>
+                               <div>
+                                   <div class="small text-gray-500" id="dropdown-date">
+
+                                       <?php
+                                        date_default_timezone_set("Asia/calcutta");
+                                        // date_default_timezone_set('Europe/London');
+                                        echo  date("d-m-Y");
+                                        ?>
+
+                                   </div>
+
+
+
+
+                                   <span class="font-weight-bold" id="dropdown-data">
+
+
+                                   </span>
+                                   <script type="text/javascript">
+                                       function loadData() {
+
+
+                                           setInterval(function() {
+
+                                               var xhttp = new XMLHttpRequest();
+                                               xhttp.onload = function() {
+                                                   if (this.readyState == 4 && this.status == 200) {
+                                                       document.getElementById("dropdown-data").innerHTML = this.responseText;
+                                                   }
+                                               };
+                                               xhttp.open("GET", "info.php", false);
+                                               xhttp.send();
+
+
+                                           }, 1000);
+
+                                       }
+                                       loadData();
+                                   </script>
+
+                               </div>
+                           </a>
+
+
+
+                           <div id="myDiv" class="container">
+
+
+
+                               <div class="row">
+
+
+
+                                   <form action="record.php" method="POST">
+                                       <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>">
+                                       <button type="submit" name="edit_data_btn" onclick="myFunction()" class=" btn btn-success col-lg ">Accept</button>
+                                   </form>
+
+
+                                   <form action="visitor_record.php" method="POST">
+                                       <input type="number" name="decline_id" value="<?php echo $row['id'] ?>">
+                                       <button type="submit" onclick="myConfirm();myFunction();" name="decline_btn" class="btn btn-danger col-lg " role="button" aria-pressed="true">Decline</button>
+                                   </form>
+
+                               </div>
+
+                           </div>
+                       </div>
+                   </li>
 
                    <!-- Nav Item - Messages -->
 
