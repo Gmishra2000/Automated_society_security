@@ -174,3 +174,2387 @@ INFO:werkzeug: * Debugger PIN: 117-496-450
 INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2021 18:44:35] "[37mPOST /recognize HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2021 18:49:31] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 13:52:45] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:04:17] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:21:59] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:23:50] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:28:28] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:28:42] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:42:39] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:43:02] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:45:22] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:46:12] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:46:41] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\liveness_final\\liveness_file.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:50:32] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:50:50] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:54:50] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 14:55:13] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 15:03:26] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2021 15:03:38] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 18:57:02] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 18:57:21] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 19:40:58] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 19:42:47] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 19:42:59] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 20:11:00] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 20:11:31] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2021 20:11:53] "[37mPOST /recognize HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C243153141_PSC_VIDEO.mp4' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 119, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C243153141_PSC_VIDEO.mp4'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:03:49] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C149699754photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 119, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C149699754photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:05:08] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C044762142photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 119, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C044762142photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:05:58] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C149699754photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 119, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C149699754photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:07:49] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 120, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:10:50] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 124, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:14:09] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'str' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 123, in register
+    print(filename.filename)
+AttributeError: 'str' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:15:02] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 128, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:16:44] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### Object of type error is not JSON serializable ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 141, in register
+    return jsonify({"result":result[0],"message":result[1]})
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type error is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:19:06] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 128, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C252083257photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:30:47] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:33:57] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2021 01:36:05] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:19:41] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:22:44] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:23:43] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:27:17] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:28:59] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C209263156photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 128, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C209263156photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:29:56] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'method' object is not subscriptable ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 112, in register
+    img_file = request.files.get['img_name']
+TypeError: 'method' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:39:21] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'method' object is not subscriptable ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 112, in register
+    img_file = request.files.getlist['img_name[]']
+TypeError: 'method' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:41:03] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'bytes' object has no attribute 'filename' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    filename = file.filename
+AttributeError: 'bytes' object has no attribute 'filename'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 21:44:23] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 112, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:38:30] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 112, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:41:00] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files["img_name"]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:41:59] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files["img_name"]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:43:33] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files["img_name"]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:44:37] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:45:18] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'method' object is not subscriptable ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files.get['img_name']
+TypeError: 'method' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:45:54] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### name 'uid' is not defined ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 112, in register
+    print(uid)
+NameError: name 'uid' is not defined
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:46:34] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 'method' object is not subscriptable ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files.get['img_name']
+TypeError: 'method' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:47:12] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:47:39] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:50:18] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:50:48] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:51:34] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'img_name'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:52:29] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:53:13] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:53:51] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:57:32] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'xx'
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 22:58:35] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 23:02:22] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['xx']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2021 23:04:59] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['uploaded_file']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 02:51:37] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['uploaded_file']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 10:56:53] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['uploaded_file']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 10:57:59] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'uploaded_file' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 113, in register
+    img_file = request.files['uploaded_file']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'uploaded_file'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 10:58:29] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\DeepBlue/visitor_images_dummy/C209263156photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 130, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\DeepBlue/visitor_images_dummy/C209263156photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:00:17] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\DeepBlue/visitor_images_dummy/C209263156photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 131, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\DeepBlue/visitor_images_dummy/C209263156photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:01:09] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:02:39] "[37mPOST /register HTTP/1.1[0m" 200 -
+ERROR:root:########### [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C209263156photo.jpg' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 131, in register
+    img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3066, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xampp\\htdocs\\ASST\\static\\uploads\\visitor_images_dummy/C209263156photo.jpg'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:04:34] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### '_io.BytesIO' object has no attribute 'rspli' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3089, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'rspli'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 114, in register
+    img_file.rspli
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3095, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'rspli'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:07:23] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### '_io.BytesIO' object has no attribute 'split' ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3089, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'split'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 116, in register
+    img_file=img_file.split("/")[-1]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 3095, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:08:23] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 11:10:03] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 17:30:24] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 17:32:51] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 18:15:17] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 18:15:47] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 18:20:20] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 18:20:40] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 18:21:12] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2021 23:19:42] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:41:40] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:43:23] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:46:34] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:48:09] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:49:19] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:51:43] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:53:03] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = request.form["id"]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:53:46] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = request.form['id']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 00:55:37] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:04:33] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = int(request.form['id'])
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:04:55] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = int(request.form['id'])
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:08:54] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = int(request.form['id'])
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:10:02] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = int(request.form["id"])
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:11:49] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = request.form["id"]
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:12:48] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 159, in update
+    uid = int(request.form["id"])
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 480, in form
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:20:43] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 160, in update
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:23:45] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 160, in update
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:29:09] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 160, in update
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:37:06] "[37mPOST /update HTTP/1.1[0m" 200 -
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 160, in update
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 01:43:11] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+ERROR:root:########### Invalid chunk header ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 451, in parse_lines
+    terminator = self._find_terminator(iterator)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 368, in _find_terminator
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 721, in make_line_iter
+    first_item = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 124, in read_chunk_len
+    _len = int(line.strip(), 16)
+ValueError: invalid literal for int() with base 16: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\xampp\htdocs\ASST\app.py", line 160, in update
+    img_file = request.files['img_name']
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\formparser.py", line 138, in wrapper
+    chunk = stream.read(1024 * 64)
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 137, in readinto
+    self._len = self.read_chunk_len()
+  File "C:\Users\Dell\anaconda3\envs\deep_blue\lib\site-packages\werkzeug\serving.py", line 126, in read_chunk_len
+    raise IOError("Invalid chunk header")
+OSError: Invalid chunk header
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 13:06:48] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:03:41] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:28:44] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:33:35] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:38:07] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:39:14] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:42:39] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\face_emb.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:47:02] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:47:05] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:47:07] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:47:08] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:48:23] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:49:31] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:52:33] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:54:59] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:55:34] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:56:19] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 18:56:53] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 19:07:31] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 19:12:35] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 23:54:19] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2021 23:56:07] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 00:00:50] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 00:35:00] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:10:22] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:21:47] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:23:13] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:25:14] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:27:47] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:29:02] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:31:39] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:32:28] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:34:22] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:36:00] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:41:08] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 03:53:08] "[37mPOST /update HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 04:23:54] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2021 05:03:00] "[37mPOST /delete HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\xampp\\htdocs\\ASST\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 240-454-251
+INFO:werkzeug: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)

@@ -53,7 +53,7 @@
        </div>
 
 
-       -->
+       
 
 
 
@@ -68,11 +68,16 @@
                <i class="fas fa-fw fa-chart-area"></i>
                <span>Visitor Profile</span> <input type="hidden"></a>
        </li>
+       <li class="nav-item">
+           <a class="nav-link" href="user_auth.php">
+               <i class="fas fa-fw fa-chart-area"></i>
+               <span>Visitor Entry Report</span> <input type="hidden"></a>
+       </li>
 
 
 
 
-       -->
+       
 
 
 

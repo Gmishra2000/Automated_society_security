@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/user_val.php');
 include('includes/header.php');
 include('includes/user_navbar.php');
 
@@ -18,7 +19,8 @@ include('includes/user_navbar.php');
         <?php
         if (isset($_POST['edit_data_btn'])) {
             $id = $_POST['edit_id'];
-
+            
+           
             $query = "SELECT * FROM visitor where id='$id'";
             $query_run = mysqli_query($connection, $query);
 

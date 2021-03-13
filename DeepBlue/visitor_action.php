@@ -25,7 +25,7 @@ if (isset($_POST['registerbtn'])) {
     // }
 
     // if (file_exists("upload/visitor/" . $_FILES["person_image"]["name"])) {
-    //     $store  = $_FILES["person_image"]["name"];
+    //     $store  = $_FILES['person_image']['name'];
     //     $_SESSION['status'] = "Image already exists. '.$store.'";
     //     $_SESSION['status_code'] = "Error";
     //     header('Location: visitor_register.php');
@@ -38,48 +38,77 @@ if (isset($_POST['registerbtn'])) {
         header('Location: visitor_register.php');
     } else {
 
+        // $idquery = "SELECT max(id) as ids FROM visitor"; 
+        $idquery = "SELECT Auto_increment as id from information_schema.tables where table_name = 'visitor' and table_schema = 'adminpanel'";
+        $result = mysqli_query($connection, $idquery);
+        if (!$result) {
+            die('Could not query:' . mysqli_error($connection));
+        }
+        $id = mysqli_fetch_assoc($result);
+        $last_id = $id['id'];
 
 
-        $query = "INSERT INTO visitor (Name,houseNo,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$houseNo','$aadharNo','$phoneNumber','$designation','$images')";
-        $query_run = mysqli_query($connection, $query);
+        // $tmpfile = $_FILES["person_image"]["tmp_name"];
+        // $filename = basename($_FILES['image']['name']);
 
-        $last_id = mysqli_insert_id($connection);
-        $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
-        $query_map_run = mysqli_query($connection, $query_map);
+        move_uploaded_file($_FILES["person_image"]["tmp_name"], "visitor_images_dummy/" . $_FILES['person_image']['name']);
 
-        // if (($query_run) === TRUE) {
-        //     echo "New record created successfully";
-        // } else {
-        //     echo "Error: " . $query_run . "<br>" . $connection->error;
-        // }
+        #calling the python api 
+        $curl = curl_init();
 
-        if ($query_run) {
-            move_uploaded_file($_FILES["person_image"]["tmp_name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
-            $_SESSION['status'] = "Visitor Added";
-            $_SESSION['status_code'] = "success";
-            #calling the register api for embedding
-            // $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'localhost:5005/register',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            // CURLOPT_POSTFIELDS => array('vis_name'=>$Name,'houseno'=>$houseNo,'aadhar'=>$aadharNo,'phone'=>$phoneNumber,'designation'=>$designation,
+            // 'img_file'=> new CURLFILE("visitor_images_dummy/" .$_FILES['person_image']['name'])),
 
-            // curl_setopt_array($curl, array(
-            // CURLOPT_URL => 'localhost:5005/register',
-            // CURLOPT_RETURNTRANSFER => true,
-            // CURLOPT_ENCODING => '',
-            // CURLOPT_MAXREDIRS => 10,
-            // CURLOPT_TIMEOUT => 0,
-            // CURLOPT_FOLLOWLOCATION => true,
-            // CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            // CURLOPT_CUSTOMREQUEST => 'POST',
             // CURLOPT_POSTFIELDS => array('id' => $last_id,'img_name' => $_FILES["person_image"]["name"]),
-            // ));
+            CURLOPT_POSTFIELDS => array('id' => $last_id, 'img_name' => new CURLFILE("visitor_images_dummy/" . $_FILES['person_image']['name'])),
+        ));
 
-            // $response = curl_exec($curl);
+        $response = curl_exec($curl);
 
-            // curl_close($curl);
-            // echo $response;
-            header('Location: visitor_profile.php');
+        curl_close($curl);
+        // echo $response;
+        $response = json_decode($response, true);
+
+
+
+
+        if ($response['result'] == true) {
+          
+
+            $query = "INSERT INTO visitor(Name,houseNo,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$houseNo','$aadharNo','$phoneNumber','$designation','$images')";
+            $query_run = mysqli_query($connection, $query);
+
+
+            $last_id = mysqli_insert_id($connection);
+            $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
+            $query_map_run = mysqli_query($connection, $query_map);
+
+
+            if ($query_run) {
+
+                copy("visitor_images_dummy/" . $_FILES["person_image"]["name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
+                $_SESSION['status'] = "Visitor Added";
+                $_SESSION['status_code'] = "success";
+
+                header('Location: visitor_profile.php');
+            } else {
+                $_SESSION['status'] = "Visitor not added";
+                $_SESSION['status_code'] = "error";
+                header('Location: visitor_register.php');
+            }
         } else {
-            $_SESSION['status'] = "Visitor not added";
-            $_SESSION['status_code'] = "Error";
+
+            $_SESSION['status'] = "Face not found in image";
+            $_SESSION['status_code'] = "error";
             header('Location: visitor_register.php');
         }
     }
@@ -98,6 +127,10 @@ if (isset($_POST['register_update_btn'])) {
     $edit_desgn = $_POST['edit_desgn'];
     $person_image = $_FILES['person_image']['name'];
 
+    // echo "hello0";
+    // echo $edit_id;
+    // echo $person_image;
+
     $admin_query = "SELECT * FROM visitor where id='$edit_id' ";
     $admin_query_run = mysqli_query($connection, $admin_query);
     foreach ($admin_query_run as $ad_row) {
@@ -105,41 +138,81 @@ if (isset($_POST['register_update_btn'])) {
         if ($person_image == NULL) {
             // Update with existing image
             $image_data = $ad_row['images'];
+            
+            // move_uploaded_file($image_data, "visitor_images_dummy/" . $ad_row['images']);
+            $query = "UPDATE visitor SET Name='$edit_name', houseNo='$edit_hno' ,aadharNo='$edit_ano',phoneNumber='$edit_phno',designation='$edit_desgn',images='$image_data' WHERE id='$edit_id' ";
+            $query_run = mysqli_query($connection, $query);
+            
+            $_SESSION['status'] = "Visitor Updated";
+            $_SESSION['status_code'] = "success";
+            header('Location: visitor_profile.php');    
+
         } else {
-            // update with new image and delete old image
-            if ($img_path = "upload/visitor/" . $ad_row['images']) {
-                unlink($img_path);
-                $image_data = $person_image;
-                $_SESSION['status'] = "Visitor Updated with new image";
-                $_SESSION['status_code'] = "success";
+            
+            move_uploaded_file($_FILES["person_image"]["tmp_name"], "visitor_images_dummy/" . $_FILES['person_image']['name']);
+
+            #calling the python api 
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => 'localhost:5005/update',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => '',
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 0,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                // CURLOPT_POSTFIELDS => array('vis_name'=>$Name,'houseno'=>$houseNo,'aadhar'=>$aadharNo,'phone'=>$phoneNumber,'designation'=>$designation,
+                // 'img_file'=> new CURLFILE("visitor_images_dummy/" .$_FILES['person_image']['name'])),
+
+                // CURLOPT_POSTFIELDS => array('id' => $last_id,'img_name' => $_FILES["person_image"]["name"]),
+                CURLOPT_POSTFIELDS => array('id' => $edit_id, 'img_name' => new CURLFILE("visitor_images_dummy/" . $_FILES["person_image"]["name"])),
+            ));
+            $response = curl_exec($curl);
+            curl_close($curl);
+            // echo $response;
+            $response = json_decode($response, true);
+
+            if ($response['result'] == true) {
+                $image_data = $_FILES['person_image']['name'];
+                $query = "UPDATE visitor SET Name='$edit_name', houseNo='$edit_hno' ,aadharNo='$edit_ano',phoneNumber='$edit_phno',designation='$edit_desgn',images='$image_data' WHERE id='$edit_id' ";
+                $query_run = mysqli_query($connection, $query);
+        
+                if ($query_run) {
+
+                    // update with new image and everything is updated
+                    $img_path = "upload/visitor/" . $ad_row['images'];
+                    unlink($img_path);
+                    copy("visitor_images_dummy/" . $_FILES["person_image"]["name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
+                    // move_uploaded_file($_FILES["person_image"]["tmp_name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
+                    $_SESSION['status'] = "Visitor Updated with new Image";
+                    $_SESSION['status_code'] = "success";
+                    header('Location: visitor_profile.php');
+        
+    
+                } else {
+                    $_SESSION['status'] = "Visitor not Updated";
+                    $_SESSION['status_code'] = "error";
+                    header('Location: visitor_profile.php');
+                }
+            } else {
+                $_SESSION['status'] = "Face not found in image";
+                $_SESSION['status_code'] = "error";
                 header('Location: visitor_profile.php');
             }
+
+              
         }
     }
 
 
-    $query = "UPDATE visitor SET Name='$edit_name', houseNo='$edit_hno' ,aadharNo='$edit_ano',phoneNumber='$edit_phno',designation='$edit_desgn',images='$image_data' WHERE id='$edit_id' ";
-    $query_run = mysqli_query($connection, $query);
 
-    if ($query_run) {
-        if ($person_image == NULL) {
-            // Update with existing image
-            $_SESSION['status'] = "Visitor Updated with existing image";
-            $_SESSION['status_code'] = "success";
-            header('Location: visitor_profile.php');
-        } else {
-            // update with new image and delete old image
-            move_uploaded_file($_FILES["person_image"]["tmp_name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
-            $_SESSION['success'] = "Visitor Updated";
-            $_SESSION['status_code'] = "error";
-            header('Location: visitor_profile.php');
-        }
-    } else {
-        $_SESSION['success'] = "Visitor not Updated";
-        $_SESSION['status_code'] = "error";
-        header('Location: visitor_profile.php');
-    }
+
+
+    
 }
+
+
 
 /* --------------------------------END OF EDIT AND UPDATE IN USER--------------------------------- */
 
@@ -190,7 +263,7 @@ if (isset($_POST['admin_delete_btn'])) {
         $response = curl_exec($curl);
 
         curl_close($curl);
-        echo $response;
+        // echo $response;
         header("Location: visitor_profile.php");
     } else {
         $_SESSION['status'] = "visitor Data is Not Deleted";

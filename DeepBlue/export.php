@@ -4,7 +4,7 @@ include("security.php");
 $output = '';
 if (isset($_POST["export"])) {
     $query =
-        "SELECT   id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time from dailyrecord";
+        "SELECT id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time from dailyrecord where date=CURDATE() ";
     $result = mysqli_query($connection, $query);
     if (mysqli_num_rows($result) > 0) {
         $output .= '

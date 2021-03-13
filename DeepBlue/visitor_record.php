@@ -13,17 +13,26 @@ if (isset($_POST['visitor_update_btn'])) {
     $edit_dgNo = $_POST['edit_dgNo'];
     $edit_temp = $_POST['edit_temp'];
     $edit_time = $_POST['edit_time'];
-
+    $date = $_POST['edit_date'];
+    
     $name = $_SESSION['username'];
     if (isset($_POST["user_hNo"])) {
         $framework = '';
-        foreach ($_POST["user_hNo"] as $row) {
+        
+
+        foreach ($_POST["user_hNo"] as $row) {         
+            
             $val = (string)$row;
             $framework .= $val . ', ';
+
+        }
+        if (str_contains($framework, 'all')) { 
+            $framework=str_replace("all,","",$framework);
+            
         }
     }
 
-    $query = "INSERT INTO dailyrecord (id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time,Permission,securityPerson) VALUES ('$edit_id','$edit_name','" . $framework . "','$edit_phNo','$edit_aadharNo','$edit_dgNo','$edit_temp','$edit_time','Accepted','$name')";
+    $query = "INSERT INTO dailyrecord (id,Name,houseNo,phoneNumber,aadharNo,designation,temp,time,date,Permission,securityPerson) VALUES ('$edit_id','$edit_name','" . $framework . "','$edit_phNo','$edit_aadharNo','$edit_dgNo','$edit_temp','$edit_time','$date','Accepted','$name')";
     $query_run = mysqli_query($connection, $query);
     if ($query_run) {
         $_SESSION['status'] = "Detail Added";
@@ -31,7 +40,7 @@ if (isset($_POST['visitor_update_btn'])) {
         header('Location: security_page.php');
     } else {
         $_SESSION['status'] = "Details Not added";
-        $_SESSION['status_code'] = "Error";
+        $_SESSION['status_code'] = "error";
         header('Location: security_page.php');
     }
 }

@@ -6,13 +6,13 @@ import numpy as np
 from os import path
 
 
-
 class FaceRecognition():
     
-    def __init__(self,matrix_file, id_file):
+    def __init__(self,matrix_file, id_file, confidence_boundary=0.3):
         
         self.matrix_file = matrix_file
         self.id_file = id_file
+        self.confidence_boundary = confidence_boundary
         
         # embedding matrinx npy file present
         self.emb_mat_present = False
@@ -44,16 +44,20 @@ class FaceRecognition():
                 
                 embedding = embedder.extract(img, threshold=0.95)
                 
-                self.ids = np.array([uid])
-                self.embedding_matrix = np.array([embedding[0]['embedding']])
+                if len(embedding) == 0:
+                    return (False, "Face not found.")
                 
-                np.save(self.id_file, self.ids)
-                np.save(self.matrix_file, self.embedding_matrix)
+                else:
+                    self.ids = np.array([uid])
+                    self.embedding_matrix = np.array([embedding[0]['embedding']])
                 
-                self.emb_mat_present = True
-                self.ids_present = True
+                    np.save(self.id_file, self.ids)
+                    np.save(self.matrix_file, self.embedding_matrix)
                 
-                return (True, "Successful")
+                    self.emb_mat_present = True
+                    self.ids_present = True
+                
+                    return (True, "Successful")
 
             elif self.emb_mat_present and self.ids_present:
                 
@@ -61,69 +65,28 @@ class FaceRecognition():
                     return (False, "ID already exists")
                 
                 else:
-                    self.ids = np.append(self.ids, uid)
-                    np.save(self.id_file, self.ids)
-
+                    
                     embedding = embedder.extract(img, threshold=0.95)
+                    
+                    if len(embedding) == 0:
+                        return (False, "Face not found.")
+                    
+                    else:
+                        self.ids = np.append(self.ids, uid)
+                        np.save(self.id_file, self.ids)
 
-                    self.embedding_matrix = np.append(self.embedding_matrix, np.array([embedding[0]['embedding']]), axis=0)
-                    np.save(self.matrix_file, self.embedding_matrix)
+                        self.embedding_matrix = np.append(self.embedding_matrix, np.array([embedding[0]['embedding']]), axis=0)
+                        np.save(self.matrix_file, self.embedding_matrix)
 
-                    return (True, "Successful")
+                        return (True, "Successful")
             
             else:
                 return (False, "One of the Embedding file or ID file exists and the other doesn't")
 
         except Exception as e:
-            return (False, str(e))
+            return (False, e)
         
     def delete_embedding(self, uid):
-        
-        try :
-
-            if (not self.emb_mat_present) or (not self.ids_present) :
-                return (False, "Either of the Embedding file or ID file or both does not exist")
-
-            else:
-                idx = np.where(self.ids==uid)[0]
-                if len(idx) > 1:
-                    return (False, "ID present at multiple locations")
-                
-                self.ids = np.delete(self.ids, idx[0])
-                np.save(self.id_file, self.ids)
-                
-                self.embedding_matrix = np.delete(self.embedding_matrix, idx[0], axis=0)
-                np.save(self.matrix_file, self.embedding_matrix)
-                
-                return (True, "Successful")
-
-        except Exception as e:
-            return (False, str(e))
-        
-    def get_id(self, img):
-        
-        try:
-            if (not self.emb_mat_present) or (not self.ids_present) :
-                return (False, "Either of the Embedding file or ID file or both does not exist")
-            
-            else:
-                
-                embedding = embedder.extract(img, threshold=0.95)
-                embedding = embedding[0]['embedding']
-
-                confidence = cdist(embedding.reshape(-1, len(embedding)), self.embedding_matrix, metric='cosine')
-                idx = np.argmin(confidence[0])
-                
-                if confidence[0][idx] < 0.3:
-                    return (True, self.ids[idx])
-                else:
-                    return (False, "Person Not Found")
-            
-        except Exception as e:
-            return (False, str(e))
-
-
-    def update_img(self, uid, img):
         
         try :
 
@@ -136,13 +99,68 @@ class FaceRecognition():
                     return (False, "ID not found or ID present at multiple locations")
                 
                 else:
-                    
-                    embedding = embedder.extract(img, threshold=0.95)
-                    embedding = embedding[0]['embedding']
-                    
-                    self.embedding_matrix[idx[0]] = embedding
+                    self.ids = np.delete(self.ids, idx[0])
+                    np.save(self.id_file, self.ids)
+                
+                    self.embedding_matrix = np.delete(self.embedding_matrix, idx[0], axis=0)
                     np.save(self.matrix_file, self.embedding_matrix)
                     return (True, "Successful")
 
         except Exception as e:
-            return (False,str(e))        
+            return (False, e)
+        
+    def get_id(self, img):
+        
+        try:
+            if (not self.emb_mat_present) or (not self.ids_present) :
+                return (False, "Either of the Embedding file or ID file or both does not exist")
+            
+            else:
+                
+                embedding = embedder.extract(img, threshold=0.95)
+                
+                if len(embedding) == 0:
+                        return (False, "Face not found.")
+                
+                else:
+                    embedding = embedding[0]['embedding']
+
+                    confidence = cdist(embedding.reshape(-1, len(embedding)), self.embedding_matrix, metric='cosine')
+                    idx = np.argmin(confidence[0])
+                
+                    if confidence[0][idx] < self.confidence_boundary:
+                        return (True, self.ids[idx], confidence[0][idx])
+                    else:
+                        return (False, "Person is not registered.")
+            
+        except Exception as e:
+            return (False, e)
+    
+    def update_img(self, uid, img):
+        
+        try :
+            uid=int(uid)
+            if (not self.emb_mat_present) or (not self.ids_present) :
+                return (False, "Either of the Embedding file or ID file or both does not exist")
+
+            else:
+                idx = np.where(self.ids==uid)[0]
+                if len(idx) != 1: 
+                    return (False, "ID not found or ID present at multiple locations dajodhohd")
+                
+                else:
+                    
+                    embedding = embedder.extract(img, threshold=0.95)
+                    
+                    if len(embedding) == 0:
+                        return (False, "Face not found.")
+                    
+                    else:
+                        embedding = embedding[0]['embedding']
+                    
+                        self.embedding_matrix[idx[0]] = embedding
+                        np.save(self.matrix_file, self.embedding_matrix)
+                        return (True, "Successful")
+
+        except Exception as e:
+            return (False, e)     

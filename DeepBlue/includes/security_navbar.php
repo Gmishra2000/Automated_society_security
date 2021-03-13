@@ -136,6 +136,17 @@
                                    xhttp.onload = function() {
                                        if (this.readyState == 4 && this.status == 200) {
                                            document.getElementById("noti_number").innerHTML = this.responseText;
+                                           console.log(this.responseText);
+                                           if(this.responseText==0){
+                                                document.getElementById("myDiv").style.display = "none";
+
+                                          }
+                                          if(this.responseText==1){
+                                                document.getElementById("myDiv").style.display = "block";
+
+                                          }
+
+                                           
                                            // console.log(noti_number);
 
                                        }
@@ -151,10 +162,18 @@
                        </script>
                        <script>
                            function myFunction() {
+
+
                                var xhttp = new XMLHttpRequest();
                                xhttp.onload = function() {
                                    if (this.readyState == 4 && this.status == 200) {
                                        document.getElementById("noti_number").innerHTML = this.responseText;
+                                    //    console.log(this.responseText);
+                                    //    if(this.responseText==0){
+                                    //             document.getElementById("myDiv").style.display = "none";
+
+                                    //        }
+                                           
 
 
 
@@ -163,6 +182,7 @@
                                xhttp.open("POST", "view.php", false);
                                xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
                                xhttp.send("fname=false");
+                               xhttp.prop()
 
                            }
                            loadDoc();
@@ -207,6 +227,13 @@
                                                xhttp.onload = function() {
                                                    if (this.readyState == 4 && this.status == 200) {
                                                        document.getElementById("dropdown-data").innerHTML = this.responseText;
+                                                       console.log(this.responseText);
+                                                        if(this.responseText == "No New Visitor yet"){
+                                                                    document.getElementById("myDiv").style.display = "none";
+
+                                                            }
+                                                            
+                                           
                                                    }
                                                };
                                                xhttp.open("GET", "info.php", false);
@@ -224,7 +251,7 @@
 
 
 
-                           <div id="myDiv" class="container">
+                           <div id="myDiv" class="container" >
 
 
 
@@ -234,7 +261,7 @@
 
                                    <form action="record.php" method="POST">
                                        <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>">
-                                       <button type="submit" name="edit_data_btn" onclick="myFunction()" class=" btn btn-success col-lg ">Accept</button>
+                                       <button type="submit" name="edit_data_btn" onclick="myFunction();" class=" btn btn-success col-lg ">Accept</button>
                                    </form>
 
 
@@ -316,3 +343,15 @@
                    </div>
                </div>
            </div>
+
+
+           <script>
+
+           function hiding(){
+            document.getElementById("myDiv").style.display = "none";
+
+           } 
+           
+
+
+           </script>

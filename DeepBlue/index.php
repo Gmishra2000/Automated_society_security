@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/admin_val.php');
 include('includes/header.php');
 include('includes/navbar.php');
 
@@ -109,12 +110,14 @@ include('includes/navbar.php');
                   <div class="input-group mb-3">
 
                     <input type="text" class="form-control" name="security_code" id="demo">
+                    
                     <div class="input-group-append">
                       <a class="btn btn-success" role="button" onclick="mygen()">Generate</a>
                     </div>
                   </div>
 
-                  <input type="submit" name="generate-id" class="btn btn-primary" value="Submit">
+                  <input type="submit" name="generate-id" class="btn btn-primary"  value="Submit">
+                  <a type="button" onclick="copytext()" class="btn btn-light">Copy Code</a>
                 </form>
 
                 <script>
@@ -131,6 +134,14 @@ include('includes/navbar.php');
                     }
                     return result;
                   }
+
+                  function copytext() {
+                  var copyText = document.getElementById("demo");
+                  // copyText.select();
+                  copyText.setSelectionRange(0, 99999)
+                  document.execCommand("copy");
+                  alert("Copied the text: " + copyText.value);
+                }
                 </script>
               </div>
             </div>

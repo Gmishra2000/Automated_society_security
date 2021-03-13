@@ -19,11 +19,13 @@ include('includes/user_navbar.php');
         <?php
         if (isset($_POST['edit_data_btn'])) {
             $id = $_POST['edit_id'];
+            
 
             $query = "SELECT * FROM user where houseNo='$id'";
             $query_run = mysqli_query($connection, $query);
 
             foreach ($query_run as $row) {
+
         ?>
                 <form action="user_action.php" method="POST" enctype="multipart/form-data">
                     <!-- <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>"> -->

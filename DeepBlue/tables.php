@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/admin_val.php');
 include('includes/header.php');
 include('includes/navbar.php');
 ?>

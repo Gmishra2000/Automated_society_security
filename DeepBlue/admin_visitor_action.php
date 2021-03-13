@@ -24,12 +24,13 @@ if (isset($_POST['admin_registerbtn'])) {
     //     echo "Error: " . $query_run . "<br>" . $connection->error;
     // }
 
-    if (file_exists("upload/visitor/" . $_FILES["person_image"]["name"])) {
-        $store  = $_FILES["person_image"]["name"];
-        $_SESSION['status'] = "Image already exists. '.$store.'";
-        $_SESSION['status_code'] = "Error";
-        header('Location: admin_visitor_register.php');
-    } elseif (mysqli_num_rows($aadhar_query_run) > 0) {
+    // if (file_exists("upload/visitor/" . $_FILES["person_image"]["name"])) {
+    //     $store  = $_FILES["person_image"]["name"];
+    //     $_SESSION['status'] = "Image already exists. '.$store.'";
+    //     $_SESSION['status_code'] = "Error";
+    //     header('Location: admin_visitor_register.php');
+    // }
+    if (mysqli_num_rows($aadhar_query_run) > 0) {
         $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$id') ";
         $query_map_run = mysqli_query($connection, $query_map);
 
@@ -38,48 +39,73 @@ if (isset($_POST['admin_registerbtn'])) {
         header('Location: admin_visitor_register.php');
     } else {
 
+        // $idquery = "SELECT max(id) as ids FROM visitor"; 
+        $idquery = "SELECT Auto_increment as id from information_schema.tables where table_name = 'visitor' and table_schema = 'adminpanel'";
+        $result = mysqli_query($connection, $idquery);
+        if (!$result) {
+            die('Could not query:' . mysqli_error($connection));
+        }
+        $id = mysqli_fetch_assoc($result);
+        $last_id = $id['id'];
 
 
-        $query = "INSERT INTO visitor (Name,houseNo,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$houseNo','$aadharNo','$phoneNumber','$designation','$images')";
-        $query_run = mysqli_query($connection, $query);
+        // $tmpfile = $_FILES["person_image"]["tmp_name"];
+        // $filename = basename($_FILES['image']['name']);
 
-        $last_id = mysqli_insert_id($connection);
-        $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
-        $query_map_run = mysqli_query($connection, $query_map);
+        move_uploaded_file($_FILES["person_image"]["tmp_name"], "visitor_images_dummy/" . $_FILES['person_image']['name']);
 
-        // if (($query_run) === TRUE) {
-        //     echo "New record created successfully";
-        // } else {
-        //     echo "Error: " . $query_run . "<br>" . $connection->error;
-        // }
+        #calling the python api 
+        $curl = curl_init();
 
-        if ($query_run) {
-            move_uploaded_file($_FILES["person_image"]["tmp_name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
-            $_SESSION['status'] = "Visitor Added";
-            $_SESSION['status_code'] = "success";
-            //     #calling the register api for embedding
-            //     // $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'localhost:5005/register',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            // CURLOPT_POSTFIELDS => array('vis_name'=>$Name,'houseno'=>$houseNo,'aadhar'=>$aadharNo,'phone'=>$phoneNumber,'designation'=>$designation,
+            // 'img_file'=> new CURLFILE("visitor_images_dummy/" .$_FILES['person_image']['name'])),
 
-            //     // curl_setopt_array($curl, array(
-            //     //     CURLOPT_URL => 'localhost:5005/register',
-            //     //     CURLOPT_RETURNTRANSFER => true,
-            //     //     CURLOPT_ENCODING => '',
-            //     //     CURLOPT_MAXREDIRS => 10,
-            //     //     CURLOPT_TIMEOUT => 0,
-            //     //     CURLOPT_FOLLOWLOCATION => true,
-            //     //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            //     //     CURLOPT_CUSTOMREQUEST => 'POST',
-            //     //     CURLOPT_POSTFIELDS => array('id' => $last_id, 'img_name' => $_FILES["person_image"]["name"]),
-            //     // ));
+            // CURLOPT_POSTFIELDS => array('id' => $last_id,'img_name' => $_FILES["person_image"]["name"]),
+            CURLOPT_POSTFIELDS => array('id' => $last_id, 'img_name' => new CURLFILE("visitor_images_dummy/" . $_FILES['person_image']['name'])),
+        ));
 
-            //     // $response = curl_exec($curl);
+        $response = curl_exec($curl);
 
-            //     // curl_close($curl);
-            //     // echo $response;
-            header('Location: admin_visitor_profile.php');
+        curl_close($curl);
+        // echo $response;
+        $response = json_decode($response, true);
+
+
+        if ($response['result'] == true) {
+
+
+            $query = "INSERT INTO visitor (Name,houseNo,aadharNo,phoneNumber,designation,images) VALUES ('$Name','$houseNo','$aadharNo','$phoneNumber','$designation','$images')";
+            $query_run = mysqli_query($connection, $query);
+
+            $last_id = mysqli_insert_id($connection);
+            $query_map = "INSERT INTO association_map(user_hNo,visitor_id) VALUES('$houseNo','$last_id') ";
+            $query_map_run = mysqli_query($connection, $query_map);
+
+
+            if ($query_run) {
+                copy("visitor_images_dummy/" . $_FILES["person_image"]["name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
+                $_SESSION['status'] = "Visitor Added";
+                $_SESSION['status_code'] = "success";
+
+                header('Location: admin_visitor_profile.php');
+            } else {
+                $_SESSION['status'] = "Visitor not added";
+                $_SESSION['status_code'] = "error";
+                header('Location: admin_visitor_register.php');
+            }
         } else {
-            $_SESSION['status'] = "Visitor not added";
-            $_SESSION['status_code'] = "Error";
+
+            $_SESSION['status'] = "Face not found in image";
+            $_SESSION['status_code'] = "error";
             header('Location: admin_visitor_register.php');
         }
     }
@@ -87,7 +113,6 @@ if (isset($_POST['admin_registerbtn'])) {
 
 
 /* ---------------------------------START OF EDIT AND UPDATE IN USER------------------------- */
-
 
 if (isset($_POST['register_update_btn'])) {
     $edit_id = $_POST['edit_id'];
@@ -130,16 +155,21 @@ if (isset($_POST['register_update_btn'])) {
         } else {
             // update with new image and delete old image
             move_uploaded_file($_FILES["person_image"]["tmp_name"], "upload/visitor/" . $_FILES["person_image"]["name"]);
-            $_SESSION['success'] = "Visitor Updated";
+            $_SESSION['status'] = "Visitor Updated";
             $_SESSION['status_code'] = "success";
             header('Location: admin_visitor_profile.php');
         }
     } else {
-        $_SESSION['success'] = "Visitor not Updated";
+        $_SESSION['status'] = "Visitor not Updated";
         $_SESSION['status_code'] = "error";
         header('Location: admin_visitor_profile.php');
     }
 }
+
+
+
+
+
 
 /* --------------------------------END OF EDIT AND UPDATE IN USER--------------------------------- */
 
@@ -173,23 +203,23 @@ if (isset($_POST['admin_delete_btn'])) {
         $_SESSION['status'] = "visitor Data is Deleted";
         $_SESSION['status_code'] = "success";
 
-        // $curl = curl_init();
+        $curl = curl_init();
 
-        // curl_setopt_array($curl, array(
-        //     CURLOPT_URL => 'localhost:5005/delete',
-        //     CURLOPT_RETURNTRANSFER => true,
-        //     CURLOPT_ENCODING => '',
-        //     CURLOPT_MAXREDIRS => 10,
-        //     CURLOPT_TIMEOUT => 0,
-        //     CURLOPT_FOLLOWLOCATION => true,
-        //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        //     CURLOPT_CUSTOMREQUEST => 'POST',
-        //     CURLOPT_POSTFIELDS => array('id' => $id),
-        // ));
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'localhost:5005/delete',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            CURLOPT_POSTFIELDS => array('id' => $id),
+        ));
 
-        // $response = curl_exec($curl);
+        $response = curl_exec($curl);
 
-        // curl_close($curl);
+        curl_close($curl);
         // echo $response;
         header("Location: admin_visitor_profile.php");
     } else {

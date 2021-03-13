@@ -1,0 +1,977 @@
+2021-02-06 05:07:55,868: Log table status - Success
+2021-02-06 05:07:56,537:  * Debugger is active!
+2021-02-06 05:07:56,542:  * Debugger PIN: 639-247-629
+2021-02-06 05:07:56,546:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 05:08:01,399: File Found, Processing...
+2021-02-06 05:08:01,399: Id Created - 73b49f45-5c8a-41cf-a3e4-f7f5ef5243a2
+2021-02-06 05:08:01,399: Upload Successful, uploaded at C:\Users\Administrator\Desktop\latest_xangers\liveliness_final\data_folder\2021-02-06\73b49f45-5c8a-41cf-a3e4-f7f5ef5243a2
+2021-02-06 05:08:05,049: Insertion Status - Success 
+2021-02-06 05:08:05,052: 127.0.0.1 - - [06/Feb/2021 05:08:05] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 05:08:33,743: File Found, Processing...
+2021-02-06 05:08:33,743: Id Created - fdf6b113-9a99-4a11-b011-b0e843161fd5
+2021-02-06 05:08:33,744: Upload Successful, uploaded at C:\Users\Administrator\Desktop\latest_xangers\liveliness_final\data_folder\2021-02-06\fdf6b113-9a99-4a11-b011-b0e843161fd5
+2021-02-06 05:08:37,075: Insertion Status - Success 
+2021-02-06 05:08:37,077: 127.0.0.1 - - [06/Feb/2021 05:08:37] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 05:09:19,577: 127.0.0.1 - - [06/Feb/2021 05:09:19] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 05:11:19,738:  * Detected change in 'C:\\Users\\Administrator\\Desktop\\latest_xangers\\liveliness_final\\app1.py', reloading
+2021-02-06 05:11:22,803: Log table status - Success
+2021-02-06 05:11:23,433:  * Debugger is active!
+2021-02-06 05:11:23,438:  * Debugger PIN: 639-247-629
+2021-02-06 05:11:23,442:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 05:12:16,492:  * Detected change in 'C:\\Users\\Administrator\\Desktop\\latest_xangers\\liveliness_final\\app1.py', reloading
+2021-02-06 05:12:19,547: Log table status - Success
+2021-02-06 05:12:20,187:  * Debugger is active!
+2021-02-06 05:12:20,192:  * Debugger PIN: 639-247-629
+2021-02-06 05:12:20,196:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 06:02:13,989:  * Detected change in 'C:\\Users\\Administrator\\Desktop\\latest_xangers\\liveliness_final\\log.py', reloading
+2021-02-06 06:02:17,051: Log table status - Success
+2021-02-06 06:02:17,695:  * Debugger is active!
+2021-02-06 06:02:17,700:  * Debugger PIN: 639-247-629
+2021-02-06 06:02:17,704:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 06:02:20,401: 127.0.0.1 - - [06/Feb/2021 06:02:20] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 06:02:30,724: File Found, Processing...
+2021-02-06 06:02:30,724: Id Created - 7ef337c9-268b-4f38-a4a9-646f205c5287
+2021-02-06 06:02:30,724: Upload Successful, uploaded at C:\Users\Administrator\Desktop\latest_xangers\liveliness_final\data_folder\2021-02-06\7ef337c9-268b-4f38-a4a9-646f205c5287
+2021-02-06 06:02:38,617: Insertion Status - Success 
+2021-02-06 06:02:38,619: 127.0.0.1 - - [06/Feb/2021 06:02:38] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 21:08:57,986: Log table status - type "string" does not exist
+LINE 5:      log_id         STRING      PRIMARY KEY,
+                            ^
+
+2021-02-06 21:09:12,570:  * Restarting with windowsapi reloader
+2021-02-06 21:09:34,742: Log table status - type "string" does not exist
+LINE 5:      log_id         STRING      PRIMARY KEY,
+                            ^
+
+2021-02-06 21:09:40,828:  * Debugger is active!
+2021-02-06 21:09:40,926:  * Debugger PIN: 291-076-094
+2021-02-06 21:09:40,992:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:12:28,768: ########### 405 Method Not Allowed: The method is not allowed for the requested URL. ###########
+Traceback (most recent call last):
+  File "C:\Users\acer\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\acer\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\acer\anaconda3\envs\tensorflow\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\acer\anaconda3\envs\tensorflow\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "C:\Users\acer\anaconda3\envs\tensorflow\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-02-06 21:12:29,031: 127.0.0.1 - - [06/Feb/2021 21:12:29] "[31m[1mGET /liveness HTTP/1.1[0m" 405 -
+2021-02-06 21:12:28,842:  * Detected change in 'C:\\Users\\acer\\anaconda3\\envs\\tensorflow\\Lib\\site-packages\\flask\\app.py', reloading
+2021-02-06 21:12:29,033:  * Detected change in 'C:\\Users\\acer\\anaconda3\\envs\\tensorflow\\Lib\\site-packages\\flask\\ctx.py', reloading
+2021-02-06 21:12:29,033:  * Detected change in 'C:\\Users\\acer\\anaconda3\\envs\\tensorflow\\Lib\\site-packages\\werkzeug\\routing.py', reloading
+2021-02-06 21:12:31,532:  * Restarting with windowsapi reloader
+2021-02-06 21:12:55,547: Log table status - type "string" does not exist
+LINE 5:      log_id         STRING      PRIMARY KEY,
+                            ^
+
+2021-02-06 21:13:00,360:  * Debugger is active!
+2021-02-06 21:13:00,407:  * Debugger PIN: 291-076-094
+2021-02-06 21:13:00,503:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:13:05,683: 127.0.0.1 - - [06/Feb/2021 21:13:05] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 21:13:40,392: File Found, Processing...
+2021-02-06 21:13:40,393: Id Created - 72a84b0f-3502-40d0-9636-b247ed707c34
+2021-02-06 21:13:40,394: Upload Successful, uploaded at F:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-06\72a84b0f-3502-40d0-9636-b247ed707c34
+2021-02-06 21:13:54,245: Insertion Status - syntax error at or near ","
+LINE 4:     VALUES(?,?,?) 
+                    ^
+ 
+2021-02-06 21:13:54,295: 127.0.0.1 - - [06/Feb/2021 21:13:54] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 21:15:11,524:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:15:11,536:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:15:11,548:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:15:15,166:  * Restarting with windowsapi reloader
+2021-02-06 21:15:37,461: Log table status - type "string" does not exist
+LINE 5:      log_id         STRING      PRIMARY KEY,
+                            ^
+
+2021-02-06 21:15:41,195:  * Debugger is active!
+2021-02-06 21:15:41,263:  * Debugger PIN: 291-076-094
+2021-02-06 21:15:41,348:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:17:57,953:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:17:57,955:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:17:58,006:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:18:00,884:  * Restarting with windowsapi reloader
+2021-02-06 21:18:20,298: Log table status - type "datetime" does not exist
+LINE 8:         timestamp      DATETIME    DEFAULT CURRENT_TIMESTAMP
+                               ^
+
+2021-02-06 21:18:24,213:  * Debugger is active!
+2021-02-06 21:18:24,295:  * Debugger PIN: 291-076-094
+2021-02-06 21:18:24,398:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:20:16,465:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:20:16,467:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:20:16,469:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:20:19,301:  * Restarting with windowsapi reloader
+2021-02-06 21:20:39,922: Log table status - Success
+2021-02-06 21:20:43,854:  * Debugger is active!
+2021-02-06 21:20:43,903:  * Debugger PIN: 291-076-094
+2021-02-06 21:20:43,973:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:33:33,617:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:33:33,618:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:33:33,692:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:33:37,113:  * Restarting with windowsapi reloader
+2021-02-06 21:33:55,663: Log table status - Success
+2021-02-06 21:34:00,167:  * Debugger is active!
+2021-02-06 21:34:00,214:  * Debugger PIN: 291-076-094
+2021-02-06 21:34:00,301:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:34:33,550:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:34:33,552:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:34:33,605:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:34:36,524:  * Restarting with windowsapi reloader
+2021-02-06 21:34:56,377: Log table status - syntax error at or near "CURRENT_TIMESTAMP"
+LINE 8:         timestamp      timestamp     CURRENT_TIMESTAMP
+                                             ^
+
+2021-02-06 21:35:00,510:  * Debugger is active!
+2021-02-06 21:35:00,668:  * Debugger PIN: 291-076-094
+2021-02-06 21:35:00,886:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:44:36,842:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:44:36,844:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:44:36,883:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:44:39,917:  * Restarting with windowsapi reloader
+2021-02-06 21:44:56,115: Log table status - Success
+2021-02-06 21:45:01,453:  * Debugger is active!
+2021-02-06 21:45:01,529:  * Debugger PIN: 291-076-094
+2021-02-06 21:45:01,605:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:45:07,673: File Found, Processing...
+2021-02-06 21:45:07,673: Id Created - 6494bd8f-d645-4e07-9ac8-bd2266ae1d7a
+2021-02-06 21:45:07,676: Upload Successful, uploaded at F:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-06\6494bd8f-d645-4e07-9ac8-bd2266ae1d7a
+2021-02-06 21:45:16,486: Insertion Status - syntax error at or near ","
+LINE 4:     VALUES(?,?,?);
+                    ^
+ 
+2021-02-06 21:45:16,495: 127.0.0.1 - - [06/Feb/2021 21:45:16] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 21:46:54,655:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:46:54,656:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:46:54,663:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:46:57,306:  * Restarting with windowsapi reloader
+2021-02-06 21:47:24,309: Log table status - Success
+2021-02-06 21:47:26,681:  * Debugger is active!
+2021-02-06 21:47:26,727:  * Debugger PIN: 291-076-094
+2021-02-06 21:47:26,799:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:47:41,487: File Found, Processing...
+2021-02-06 21:47:41,488: Id Created - f3119994-e11b-4657-a4f6-2f84b01e9729
+2021-02-06 21:47:41,489: Upload Successful, uploaded at F:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-06\f3119994-e11b-4657-a4f6-2f84b01e9729
+2021-02-06 21:47:49,694: Insertion Status - syntax error at or near ","
+LINE 4:     VALUES(?,?,?)
+                    ^
+ 
+2021-02-06 21:47:49,705: 127.0.0.1 - - [06/Feb/2021 21:47:49] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 21:49:34,883:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:49:34,885:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:49:34,938:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:49:37,198:  * Restarting with windowsapi reloader
+2021-02-06 21:50:01,728: Log table status - Success
+2021-02-06 21:50:05,694:  * Debugger is active!
+2021-02-06 21:50:05,781:  * Debugger PIN: 291-076-094
+2021-02-06 21:50:05,857:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 21:58:08,838:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:58:08,840:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:58:08,853:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 21:58:11,826:  * Restarting with windowsapi reloader
+2021-02-06 21:59:02,220: Log table status - Success
+2021-02-06 21:59:04,645:  * Restarting with windowsapi reloader
+2021-02-06 21:59:28,002: Log table status - Success
+2021-02-06 21:59:31,953:  * Debugger is active!
+2021-02-06 21:59:32,005:  * Debugger PIN: 291-076-094
+2021-02-06 21:59:32,084:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 22:00:35,292:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 22:00:35,293:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 22:00:35,350:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\pglog.py', reloading
+2021-02-06 22:00:38,357:  * Restarting with windowsapi reloader
+2021-02-06 22:01:02,414: Log table status - Success
+2021-02-06 22:01:06,833:  * Debugger is active!
+2021-02-06 22:01:06,886:  * Debugger PIN: 291-076-094
+2021-02-06 22:01:06,967:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-06 22:01:20,112: File Found, Processing...
+2021-02-06 22:01:20,112: Id Created - 25521ba9-af8f-46da-b070-57d922b3a09e
+2021-02-06 22:01:20,114: Upload Successful, uploaded at F:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-06\25521ba9-af8f-46da-b070-57d922b3a09e
+2021-02-06 22:01:31,993: Insertion Status - Success 
+2021-02-06 22:01:32,000: 127.0.0.1 - - [06/Feb/2021 22:01:32] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-06 22:10:07,417: File Found, Processing...
+2021-02-06 22:10:07,418: Id Created - f45d86a8-d72d-4a21-a24e-4c18bfc5dcd3
+2021-02-06 22:10:07,420: Upload Successful, uploaded at F:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-06\f45d86a8-d72d-4a21-a24e-4c18bfc5dcd3
+2021-02-06 22:10:16,935: Insertion Status - Success 
+2021-02-06 22:10:16,938: 127.0.0.1 - - [06/Feb/2021 22:10:16] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-09 22:50:02,695: Log table status - Success
+2021-02-09 22:50:18,843:  * Restarting with windowsapi reloader
+2021-02-09 22:50:41,628: Log table status - Success
+2021-02-09 22:50:45,555:  * Debugger is active!
+2021-02-09 22:50:45,776:  * Debugger PIN: 291-076-094
+2021-02-09 22:50:45,917:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-10 11:23:08,139:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-10 11:23:08,162:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-10 11:23:08,180:  * Detected change in 'F:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-10 11:23:18,391:  * Restarting with windowsapi reloader
+2021-02-10 11:25:18,153: Log table status - Success
+2021-02-10 11:25:35,313:  * Debugger is active!
+2021-02-10 11:25:35,425:  * Debugger PIN: 291-076-094
+2021-02-10 11:25:35,946:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-19 21:45:33,001: Log table status - Success
+2021-02-19 21:51:20,684: Log table status - Success
+2021-02-19 21:51:21,819:  * Restarting with stat
+2021-02-19 21:51:23,650: Log table status - Success
+2021-02-19 21:51:24,215:  * Debugger is active!
+2021-02-19 21:51:24,227:  * Debugger PIN: 280-640-532
+2021-02-19 21:51:24,238:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-19 21:54:04,597: Id Created - fb8908a2-0875-423f-989b-b9b063794dce
+2021-02-19 21:54:04,776: File Found, Processing...
+2021-02-19 21:54:04,776: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-19\fb8908a2-0875-423f-989b-b9b063794dce
+2021-02-19 21:54:08,811: Insertion Status - Success 
+2021-02-19 21:54:08,813: 127.0.0.1 - - [19/Feb/2021 21:54:08] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-19 21:57:15,562: ########### 405 Method Not Allowed: The method is not allowed for the requested URL. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-02-19 21:57:15,577: 127.0.0.1 - - [19/Feb/2021 21:57:15] "[31m[1mGET /liveness HTTP/1.1[0m" 405 -
+2021-02-19 21:57:23,525: Id Created - 8e7097bb-0601-4e52-8564-224b47a79963
+2021-02-19 21:57:34,976: File Found, Processing...
+2021-02-19 21:57:34,976: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-19\8e7097bb-0601-4e52-8564-224b47a79963
+2021-02-19 21:57:38,250: Insertion Status - Success 
+2021-02-19 21:57:38,251: 127.0.0.1 - - [19/Feb/2021 21:57:38] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 14:18:36,533: Log table status - Success
+2021-02-20 14:18:39,290:  * Restarting with stat
+2021-02-20 14:18:41,462: Log table status - Success
+2021-02-20 14:18:42,177:  * Debugger is active!
+2021-02-20 14:18:42,185:  * Debugger PIN: 280-640-532
+2021-02-20 14:18:42,195:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 14:24:47,181:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-20 14:24:48,103:  * Restarting with stat
+2021-02-20 14:24:51,675: Log table status - Success
+2021-02-20 14:24:53,052:  * Debugger is active!
+2021-02-20 14:24:53,061:  * Debugger PIN: 280-640-532
+2021-02-20 14:24:53,075:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 14:26:02,542: Id Created - e5352ef4-4756-49cb-b82e-f4fb71c11965
+2021-02-20 14:26:11,250: Insertion Status - Success 
+2021-02-20 14:26:11,254: 127.0.0.1 - - [20/Feb/2021 14:26:11] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 14:45:52,452: Id Created - 999f71ad-cf57-4927-bf0f-fa13efcd19ba
+2021-02-20 14:45:58,364: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-20 14:45:58,534: 127.0.0.1 - - [20/Feb/2021 14:45:58] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-20 14:55:12,432: Id Created - d40605e8-33bb-4ccd-83b4-fa495802cfe1
+2021-02-20 14:55:37,979: Insertion Status - Success 
+2021-02-20 14:55:37,983: 127.0.0.1 - - [20/Feb/2021 14:55:37] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 14:55:57,743: Id Created - 1426ef9d-2cb6-435c-b3fe-87c65c8ac222
+2021-02-20 14:56:20,470: Insertion Status - Success 
+2021-02-20 14:56:20,473: 127.0.0.1 - - [20/Feb/2021 14:56:20] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 14:56:29,391: Id Created - dd0f5a20-6aeb-44ad-9dd4-ecac9759943d
+2021-02-20 14:57:33,252: Insertion Status - Success 
+2021-02-20 14:57:33,254: 127.0.0.1 - - [20/Feb/2021 14:57:33] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:17:48,624: Id Created - 98c8dd19-856a-47f7-a1e6-3be61a828fbd
+2021-02-20 15:18:01,186: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-20 15:18:01,188: 127.0.0.1 - - [20/Feb/2021 15:18:01] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-20 15:18:53,188: Id Created - 81a54b5b-9a02-4b1c-b665-5eff6ce05c8d
+2021-02-20 15:18:53,192: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-20 15:18:53,193: 127.0.0.1 - - [20/Feb/2021 15:18:53] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-20 15:22:01,407: Log table status - Success
+2021-02-20 15:22:02,650:  * Restarting with stat
+2021-02-20 15:22:05,100: Log table status - Success
+2021-02-20 15:22:05,655:  * Debugger is active!
+2021-02-20 15:22:05,666:  * Debugger PIN: 280-640-532
+2021-02-20 15:22:05,682:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 15:22:44,002: Id Created - 799c5bcc-e367-465e-9462-c3ab06d27ee5
+2021-02-20 15:24:07,597:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-20 15:24:07,936:  * Restarting with stat
+2021-02-20 15:24:10,835: Log table status - Success
+2021-02-20 15:24:11,338:  * Debugger is active!
+2021-02-20 15:24:11,343:  * Debugger PIN: 280-640-532
+2021-02-20 15:24:11,351:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 15:24:15,375: Id Created - 9bd6819f-9d88-47e4-a615-ebfaa0a19ae1
+2021-02-20 15:25:25,723: File Found, Processing...
+2021-02-20 15:25:25,723: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\9bd6819f-9d88-47e4-a615-ebfaa0a19ae1
+2021-02-20 15:25:28,926: Insertion Status - Success 
+2021-02-20 15:25:28,929: 127.0.0.1 - - [20/Feb/2021 15:25:28] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:25:48,029: Id Created - 3a316d9e-ccf5-4a90-9680-58691990c5a0
+2021-02-20 15:26:49,041: File Found, Processing...
+2021-02-20 15:26:49,041: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\3a316d9e-ccf5-4a90-9680-58691990c5a0
+2021-02-20 15:26:51,294: Insertion Status - Success 
+2021-02-20 15:26:51,296: 127.0.0.1 - - [20/Feb/2021 15:26:51] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:27:55,202: Log table status - Success
+2021-02-20 15:27:55,706:  * Restarting with stat
+2021-02-20 15:27:57,994: Log table status - Success
+2021-02-20 15:27:58,602:  * Debugger is active!
+2021-02-20 15:27:58,607:  * Debugger PIN: 280-640-532
+2021-02-20 15:27:58,618:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 15:28:10,796: Id Created - a748ba64-9b06-4dd5-81fa-d55c62eb4c0e
+2021-02-20 15:28:10,978: Insertion Status - Success 
+2021-02-20 15:28:10,979: 127.0.0.1 - - [20/Feb/2021 15:28:10] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:28:18,489: Id Created - fe4de4ce-c3fc-480b-b190-aa0319eeaf29
+2021-02-20 15:28:18,720: File Found, Processing...
+2021-02-20 15:28:18,720: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\fe4de4ce-c3fc-480b-b190-aa0319eeaf29
+2021-02-20 15:28:23,402: Insertion Status - Success 
+2021-02-20 15:28:23,409: 127.0.0.1 - - [20/Feb/2021 15:28:23] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:30:01,617: Id Created - 01d7bfe2-88ec-401f-a665-2306f83e4612
+2021-02-20 15:30:02,232: Insertion Status - Success 
+2021-02-20 15:30:02,234: 127.0.0.1 - - [20/Feb/2021 15:30:02] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:30:19,110:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-20 15:30:19,439:  * Restarting with stat
+2021-02-20 15:30:22,102: Log table status - Success
+2021-02-20 15:30:22,612:  * Debugger is active!
+2021-02-20 15:30:22,618:  * Debugger PIN: 280-640-532
+2021-02-20 15:30:22,625:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-20 15:30:23,106: Id Created - 0ee8a19f-dce9-4f7a-8908-70f5d37112b0
+2021-02-20 15:30:23,241: File Found, Processing...
+2021-02-20 15:30:23,242: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\0ee8a19f-dce9-4f7a-8908-70f5d37112b0
+2021-02-20 15:30:32,626: Insertion Status - Success 
+2021-02-20 15:30:32,629: 127.0.0.1 - - [20/Feb/2021 15:30:32] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:31:39,680: Id Created - 73f6df1d-d150-4132-960f-d5f7363036ca
+2021-02-20 15:32:03,075: File Found, Processing...
+2021-02-20 15:32:03,075: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\73f6df1d-d150-4132-960f-d5f7363036ca
+2021-02-20 15:32:06,784: Insertion Status - Success 
+2021-02-20 15:32:06,787: 127.0.0.1 - - [20/Feb/2021 15:32:06] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:32:44,626: Id Created - 23ac22f3-7218-4f45-84f3-5484dea04289
+2021-02-20 15:33:39,185: File Found, Processing...
+2021-02-20 15:33:39,186: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\23ac22f3-7218-4f45-84f3-5484dea04289
+2021-02-20 15:33:49,250: Insertion Status - Success 
+2021-02-20 15:33:49,252: 127.0.0.1 - - [20/Feb/2021 15:33:49] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-20 15:34:20,428: Id Created - c6f6b969-f3aa-4d22-b631-1018440915c8
+2021-02-20 15:34:27,177: File Found, Processing...
+2021-02-20 15:34:27,178: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-20\c6f6b969-f3aa-4d22-b631-1018440915c8
+2021-02-20 15:34:29,529: Insertion Status - Success 
+2021-02-20 15:34:29,537: 127.0.0.1 - - [20/Feb/2021 15:34:29] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:07:19,651: Log table status - Success
+2021-02-21 22:07:21,434:  * Restarting with stat
+2021-02-21 22:07:23,430: Log table status - Success
+2021-02-21 22:07:24,044:  * Debugger is active!
+2021-02-21 22:07:24,053:  * Debugger PIN: 147-965-324
+2021-02-21 22:07:26,484:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-21 22:12:34,633: Id Created - be1d16d2-22fa-4fbe-945e-6e470f299cb4
+2021-02-21 22:12:38,231: File Found, Processing...
+2021-02-21 22:12:38,231: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\be1d16d2-22fa-4fbe-945e-6e470f299cb4
+2021-02-21 22:12:42,117: Insertion Status - Success 
+2021-02-21 22:12:42,120: 127.0.0.1 - - [21/Feb/2021 22:12:42] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:16:57,712: Id Created - 4c5034d3-b1c1-42ee-80b1-39a607d3d6bd
+2021-02-21 22:17:02,130: File Found, Processing...
+2021-02-21 22:17:02,131: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\4c5034d3-b1c1-42ee-80b1-39a607d3d6bd
+2021-02-21 22:17:05,488: Insertion Status - Success 
+2021-02-21 22:17:05,489: 127.0.0.1 - - [21/Feb/2021 22:17:05] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:18:56,498: Id Created - 9a24f82f-45be-46e6-8890-ef27df1f0d98
+2021-02-21 22:19:00,971: File Found, Processing...
+2021-02-21 22:19:00,972: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\9a24f82f-45be-46e6-8890-ef27df1f0d98
+2021-02-21 22:19:05,508: Insertion Status - Success 
+2021-02-21 22:19:05,510: 127.0.0.1 - - [21/Feb/2021 22:19:05] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:23:56,141: Id Created - 2ecda28d-6a02-4bcd-beb9-703c272b3063
+2021-02-21 22:23:58,444: File Found, Processing...
+2021-02-21 22:23:58,444: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\2ecda28d-6a02-4bcd-beb9-703c272b3063
+2021-02-21 22:24:02,499: Insertion Status - Success 
+2021-02-21 22:24:02,500: 127.0.0.1 - - [21/Feb/2021 22:24:02] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:24:33,214: Id Created - e1656083-7ea6-4dfe-945c-64b341aff89d
+2021-02-21 22:24:35,028: File Found, Processing...
+2021-02-21 22:24:35,029: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\e1656083-7ea6-4dfe-945c-64b341aff89d
+2021-02-21 22:24:38,365: Insertion Status - Success 
+2021-02-21 22:24:38,367: 127.0.0.1 - - [21/Feb/2021 22:24:38] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:25:18,858: Id Created - 883070af-3e95-4fd4-806b-22034e21ce91
+2021-02-21 22:25:20,910: File Found, Processing...
+2021-02-21 22:25:20,910: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\883070af-3e95-4fd4-806b-22034e21ce91
+2021-02-21 22:25:24,018: Insertion Status - Success 
+2021-02-21 22:25:24,020: 127.0.0.1 - - [21/Feb/2021 22:25:24] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:27:37,424: Id Created - eba3cc28-7510-4c3c-8dc7-f3dbeac301af
+2021-02-21 22:27:43,201: File Found, Processing...
+2021-02-21 22:27:43,201: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\eba3cc28-7510-4c3c-8dc7-f3dbeac301af
+2021-02-21 22:27:46,467: Insertion Status - Success 
+2021-02-21 22:27:46,469: 127.0.0.1 - - [21/Feb/2021 22:27:46] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:28:52,389: Id Created - 92b91fdd-3db7-4787-9a03-1176d9b5ed90
+2021-02-21 22:28:54,955: File Found, Processing...
+2021-02-21 22:28:54,955: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\92b91fdd-3db7-4787-9a03-1176d9b5ed90
+2021-02-21 22:28:58,392: Insertion Status - Success 
+2021-02-21 22:28:58,394: 127.0.0.1 - - [21/Feb/2021 22:28:58] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:37:19,932: Log table status - Success
+2021-02-21 22:37:21,501:  * Restarting with stat
+2021-02-21 22:37:23,941: Log table status - Success
+2021-02-21 22:37:24,405:  * Debugger is active!
+2021-02-21 22:37:24,410:  * Debugger PIN: 147-965-324
+2021-02-21 22:37:24,422:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-21 22:39:33,858:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-21 22:39:34,746:  * Restarting with stat
+2021-02-21 22:40:20,271: Log table status - Success
+2021-02-21 22:40:21,395:  * Restarting with stat
+2021-02-21 22:40:23,561: Log table status - Success
+2021-02-21 22:40:24,106:  * Debugger is active!
+2021-02-21 22:40:24,111:  * Debugger PIN: 147-965-324
+2021-02-21 22:40:24,119:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-21 22:41:28,926: Id Created - 5d950b27-fd33-4345-95f8-7d8b5c9c9a48
+2021-02-21 22:41:37,505: File Found, Processing...
+2021-02-21 22:41:37,505: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\5d950b27-fd33-4345-95f8-7d8b5c9c9a48
+2021-02-21 22:41:40,916: Insertion Status - Success 
+2021-02-21 22:41:40,917: 127.0.0.1 - - [21/Feb/2021 22:41:40] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:43:24,453: Id Created - c06b2808-239f-4b95-b879-6647b46353ae
+2021-02-21 22:43:35,337: File Found, Processing...
+2021-02-21 22:43:35,338: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\c06b2808-239f-4b95-b879-6647b46353ae
+2021-02-21 22:43:38,769: Insertion Status - Success 
+2021-02-21 22:43:38,770: 127.0.0.1 - - [21/Feb/2021 22:43:38] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-21 22:44:03,365:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-21 22:44:04,276:  * Restarting with stat
+2021-02-21 22:44:06,555: Log table status - Success
+2021-02-21 22:44:06,995:  * Debugger is active!
+2021-02-21 22:44:07,000:  * Debugger PIN: 147-965-324
+2021-02-21 22:44:07,010:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-21 22:44:39,521: Id Created - 1ed54dbf-ea18-436c-9767-176a1b688e65
+2021-02-21 22:44:41,615: File Found, Processing...
+2021-02-21 22:44:41,615: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-21\1ed54dbf-ea18-436c-9767-176a1b688e65
+2021-02-21 22:44:45,759: Insertion Status - Success 
+2021-02-21 22:44:45,761: 127.0.0.1 - - [21/Feb/2021 22:44:45] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 15:52:16,783: Log table status - Success
+2021-02-24 15:52:18,346:  * Restarting with stat
+2021-02-24 15:52:21,018: Log table status - Success
+2021-02-24 15:52:21,684:  * Debugger is active!
+2021-02-24 15:52:21,696:  * Debugger PIN: 147-965-324
+2021-02-24 15:52:24,330:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-24 15:55:47,963: Id Created - e7cce442-98a7-4801-a839-4f52937727ec
+2021-02-24 15:55:51,113: File Found, Processing...
+2021-02-24 15:55:51,114: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\e7cce442-98a7-4801-a839-4f52937727ec
+2021-02-24 15:55:55,318: Insertion Status - Success 
+2021-02-24 15:55:55,323: 127.0.0.1 - - [24/Feb/2021 15:55:55] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:02:10,709: Id Created - d9cff98e-06a8-4a42-87f6-66d2dc393abb
+2021-02-24 16:02:18,897: File Found, Processing...
+2021-02-24 16:02:18,897: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\d9cff98e-06a8-4a42-87f6-66d2dc393abb
+2021-02-24 16:02:22,902: Insertion Status - Success 
+2021-02-24 16:02:22,903: 127.0.0.1 - - [24/Feb/2021 16:02:22] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:05:48,921: Id Created - 25e7f7db-ded6-40ca-8f1a-d9a78c83cd48
+2021-02-24 16:05:52,516: File Found, Processing...
+2021-02-24 16:05:52,516: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\25e7f7db-ded6-40ca-8f1a-d9a78c83cd48
+2021-02-24 16:05:56,227: Insertion Status - Success 
+2021-02-24 16:05:56,229: 127.0.0.1 - - [24/Feb/2021 16:05:56] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:09:33,590: Id Created - a6ba5c20-a303-4de4-9bc2-95119ec5425e
+2021-02-24 16:09:40,129: File Found, Processing...
+2021-02-24 16:09:40,129: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\a6ba5c20-a303-4de4-9bc2-95119ec5425e
+2021-02-24 16:09:44,141: Insertion Status - Success 
+2021-02-24 16:09:44,142: 127.0.0.1 - - [24/Feb/2021 16:09:44] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:12:35,640: Id Created - a40604cf-394a-49a7-8320-f2e9e62c4c8e
+2021-02-24 16:12:40,568: File Found, Processing...
+2021-02-24 16:12:40,568: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\a40604cf-394a-49a7-8320-f2e9e62c4c8e
+2021-02-24 16:12:44,211: Insertion Status - Success 
+2021-02-24 16:12:44,213: 127.0.0.1 - - [24/Feb/2021 16:12:44] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:14:52,253: Id Created - 1f670fb9-ccfc-4dd3-b312-ca99ad4fc18a
+2021-02-24 16:14:53,736: File Found, Processing...
+2021-02-24 16:14:53,736: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\1f670fb9-ccfc-4dd3-b312-ca99ad4fc18a
+2021-02-24 16:14:56,311: Insertion Status - Success 
+2021-02-24 16:14:56,313: 127.0.0.1 - - [24/Feb/2021 16:14:56] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:15:19,028: Id Created - acb8576f-a9ef-4564-95e6-2502c3e64308
+2021-02-24 16:15:26,793: File Found, Processing...
+2021-02-24 16:15:26,794: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\acb8576f-a9ef-4564-95e6-2502c3e64308
+2021-02-24 16:15:29,277: Insertion Status - Success 
+2021-02-24 16:15:29,279: 127.0.0.1 - - [24/Feb/2021 16:15:29] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:19:24,186: Id Created - f8c51426-200b-41c8-9b52-654937274592
+2021-02-24 16:19:29,812: File Found, Processing...
+2021-02-24 16:19:29,812: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\f8c51426-200b-41c8-9b52-654937274592
+2021-02-24 16:19:33,481: Insertion Status - Success 
+2021-02-24 16:19:33,483: 127.0.0.1 - - [24/Feb/2021 16:19:33] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:21:15,487: Id Created - 8d015bb4-1952-4648-a1b5-79f7e4432e0f
+2021-02-24 16:21:24,176: File Found, Processing...
+2021-02-24 16:21:24,176: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\8d015bb4-1952-4648-a1b5-79f7e4432e0f
+2021-02-24 16:21:27,665: Insertion Status - Success 
+2021-02-24 16:21:27,667: 127.0.0.1 - - [24/Feb/2021 16:21:27] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 16:32:29,253: Id Created - 150dfc73-0723-4bc6-ab7e-dfc124f5ba64
+2021-02-24 16:32:36,951: File Found, Processing...
+2021-02-24 16:32:36,952: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\150dfc73-0723-4bc6-ab7e-dfc124f5ba64
+2021-02-24 16:32:42,220: Insertion Status - Success 
+2021-02-24 16:32:42,222: 127.0.0.1 - - [24/Feb/2021 16:32:42] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:07:20,131: Log table status - Success
+2021-02-24 22:07:22,668:  * Restarting with stat
+2021-02-24 22:07:25,632: Log table status - Success
+2021-02-24 22:07:26,549:  * Debugger is active!
+2021-02-24 22:07:26,561:  * Debugger PIN: 147-965-324
+2021-02-24 22:07:29,236:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-24 22:20:45,828:  * Detected change in 'D:\\DSW\\APIS(WITH_DB)\\liveliness_final\\app1.py', reloading
+2021-02-24 22:20:46,950:  * Restarting with stat
+2021-02-24 22:20:53,335: Log table status - Success
+2021-02-24 22:20:55,719:  * Debugger is active!
+2021-02-24 22:20:55,732:  * Debugger PIN: 147-965-324
+2021-02-24 22:20:58,596:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-24 22:29:52,827: Id Created - d1d6f11b-a2a4-4287-aa23-cc1da8e771e0
+2021-02-24 22:30:43,681: File Found, Processing...
+2021-02-24 22:30:43,681: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\d1d6f11b-a2a4-4287-aa23-cc1da8e771e0
+2021-02-24 22:30:52,828: Insertion Status - Success 
+2021-02-24 22:30:52,832: 127.0.0.1 - - [24/Feb/2021 22:30:52] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:34:05,933: Id Created - f47d288d-d8f8-437a-83ca-6f08fc8c2ed7
+2021-02-24 22:34:13,817: File Found, Processing...
+2021-02-24 22:34:13,818: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\f47d288d-d8f8-437a-83ca-6f08fc8c2ed7
+2021-02-24 22:34:20,308: Insertion Status - Success 
+2021-02-24 22:34:20,311: 127.0.0.1 - - [24/Feb/2021 22:34:20] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:41:33,597: Id Created - ddcbcfab-8f16-48cc-9ab1-55184c9903f4
+2021-02-24 22:41:36,536: File Found, Processing...
+2021-02-24 22:41:36,536: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\ddcbcfab-8f16-48cc-9ab1-55184c9903f4
+2021-02-24 22:41:42,166: Insertion Status - Success 
+2021-02-24 22:41:42,170: 127.0.0.1 - - [24/Feb/2021 22:41:42] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:45:50,369: Id Created - 8bcd11ae-883a-4450-bd25-298c8369f366
+2021-02-24 22:46:03,157: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-24 22:46:03,176: 127.0.0.1 - - [24/Feb/2021 22:46:03] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-24 22:50:16,409: Id Created - 1cbf265f-5308-40b1-a896-fbea1f5dd935
+2021-02-24 22:50:56,899: File Found, Processing...
+2021-02-24 22:50:56,899: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\1cbf265f-5308-40b1-a896-fbea1f5dd935
+2021-02-24 22:51:09,968: Insertion Status - Success 
+2021-02-24 22:51:09,971: 127.0.0.1 - - [24/Feb/2021 22:51:09] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:54:25,378: Id Created - e8f2a777-40db-4dcc-b962-707b78ff185a
+2021-02-24 22:54:29,638: File Found, Processing...
+2021-02-24 22:54:29,639: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\e8f2a777-40db-4dcc-b962-707b78ff185a
+2021-02-24 22:54:42,109: Insertion Status - Success 
+2021-02-24 22:54:42,113: 127.0.0.1 - - [24/Feb/2021 22:54:42] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 22:58:16,027: Id Created - 714b1fcb-f011-4e71-9b49-2d6f6751eb5a
+2021-02-24 22:59:03,539: File Found, Processing...
+2021-02-24 22:59:03,540: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\714b1fcb-f011-4e71-9b49-2d6f6751eb5a
+2021-02-24 22:59:09,470: Insertion Status - Success 
+2021-02-24 22:59:09,474: 127.0.0.1 - - [24/Feb/2021 22:59:09] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:00:39,637: Id Created - c1fe0ad0-529e-42e6-9da9-baf26e666e1f
+2021-02-24 23:01:01,156: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-24 23:01:01,158: 127.0.0.1 - - [24/Feb/2021 23:01:01] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-24 23:05:09,758: Id Created - d516840c-5f3c-4d4c-911d-ecef2cc29060
+2021-02-24 23:05:24,824: ########### 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 131, in wrapper
+    return f(self, stream, *args, **kwargs)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 253, in _parse_multipart
+    form, files = parser.parse(stream, boundary, content_length)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 584, in parse
+    return self.cls(form), self.cls(files)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\datastructures.py", line 419, in __init__
+    for key, value in mapping or ():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 582, in <genexpr>
+    form = (p[1] for p in formstream if p[0] == "form")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 537, in parse_parts
+    for ellt, ell in self.parse_lines(file, boundary, content_length):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 480, in parse_lines
+    for line in iterator:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 761, in make_line_iter
+    for item in _iter_basic_lines():
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 737, in _iter_basic_lines
+    new_data = next(_iter, "")
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 681, in _make_chunk_iter
+    item = _read(buffer_size)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\DSW\APIS(WITH_DB)\liveliness_final\app1.py", line 118, in liveness
+    if 'files[]' not in request.files:
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\utils.py", line 90, in __get__
+    value = self.func(obj)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 514, in files
+    self._load_form_data()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\wrappers.py", line 88, in _load_form_data
+    RequestBase._load_form_data(self)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wrappers\base_request.py", line 319, in _load_form_data
+    self._get_stream_for_parsing(), mimetype, content_length, options
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 232, in parse
+    return parse_func(self, stream, mimetype, content_length, options)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\formparser.py", line 135, in wrapper
+    exhaust()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 925, in exhaust
+    self.read(chunk)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 943, in read
+    return self.on_disconnect()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\wsgi.py", line 911, in on_disconnect
+    raise ClientDisconnected()
+werkzeug.exceptions.ClientDisconnected: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-02-24 23:05:24,827: 127.0.0.1 - - [24/Feb/2021 23:05:24] "[31m[1mPOST /liveness HTTP/1.1[0m" 400 -
+2021-02-24 23:12:56,002: Id Created - afae0c50-4558-4f40-bc05-7760ba2449bd
+2021-02-24 23:13:02,635: File Found, Processing...
+2021-02-24 23:13:02,636: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\afae0c50-4558-4f40-bc05-7760ba2449bd
+2021-02-24 23:13:15,926: Insertion Status - Success 
+2021-02-24 23:13:15,931: 127.0.0.1 - - [24/Feb/2021 23:13:15] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:30:19,257: Id Created - 03f05f97-c5fb-4c32-9c12-b2281ed6d654
+2021-02-24 23:30:27,407: File Found, Processing...
+2021-02-24 23:30:27,407: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\03f05f97-c5fb-4c32-9c12-b2281ed6d654
+2021-02-24 23:30:32,767: Insertion Status - Success 
+2021-02-24 23:30:32,769: 127.0.0.1 - - [24/Feb/2021 23:30:32] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:30:48,093: Id Created - ea039875-c52c-4afc-8029-48ace946f215
+2021-02-24 23:30:56,711: File Found, Processing...
+2021-02-24 23:30:56,711: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\ea039875-c52c-4afc-8029-48ace946f215
+2021-02-24 23:31:03,411: Insertion Status - Success 
+2021-02-24 23:31:03,413: 127.0.0.1 - - [24/Feb/2021 23:31:03] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:31:20,695: Id Created - d4253ee8-5534-4eb0-ab08-44840f69062f
+2021-02-24 23:31:25,485: File Found, Processing...
+2021-02-24 23:31:25,485: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\d4253ee8-5534-4eb0-ab08-44840f69062f
+2021-02-24 23:31:30,938: Insertion Status - Success 
+2021-02-24 23:31:30,939: 127.0.0.1 - - [24/Feb/2021 23:31:30] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:32:12,072: Id Created - 818e444f-5cf9-4000-9e91-21413b25a7df
+2021-02-24 23:32:17,151: File Found, Processing...
+2021-02-24 23:32:17,151: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\818e444f-5cf9-4000-9e91-21413b25a7df
+2021-02-24 23:32:22,843: Insertion Status - Success 
+2021-02-24 23:32:22,845: 127.0.0.1 - - [24/Feb/2021 23:32:22] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:33:26,820: Id Created - e10ad519-1d3c-4e04-b2e6-98df5cd215ee
+2021-02-24 23:33:34,988: File Found, Processing...
+2021-02-24 23:33:34,989: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\e10ad519-1d3c-4e04-b2e6-98df5cd215ee
+2021-02-24 23:33:43,683: Insertion Status - Success 
+2021-02-24 23:33:43,685: 127.0.0.1 - - [24/Feb/2021 23:33:43] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-24 23:34:32,925: Id Created - 7090e313-3842-449d-b84f-11fc51c6518b
+2021-02-24 23:34:39,216: File Found, Processing...
+2021-02-24 23:34:39,217: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-24\7090e313-3842-449d-b84f-11fc51c6518b
+2021-02-24 23:34:41,958: Insertion Status - Success 
+2021-02-24 23:34:41,961: 127.0.0.1 - - [24/Feb/2021 23:34:41] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 17:56:14,982: Log table status - Success
+2021-02-25 17:56:18,741:  * Restarting with stat
+2021-02-25 17:56:22,300: Log table status - Success
+2021-02-25 17:56:23,990:  * Debugger is active!
+2021-02-25 17:56:24,001:  * Debugger PIN: 147-965-324
+2021-02-25 17:56:28,905:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-25 18:41:42,271: Id Created - 901bbacd-179e-41af-bd7d-0ed39adb8a8d
+2021-02-25 18:41:49,169: File Found, Processing...
+2021-02-25 18:41:49,169: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\901bbacd-179e-41af-bd7d-0ed39adb8a8d
+2021-02-25 18:41:54,293: Insertion Status - Success 
+2021-02-25 18:41:54,297: 127.0.0.1 - - [25/Feb/2021 18:41:54] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 18:43:43,269: Id Created - 857bd591-ff02-4bd1-824c-94aa48723012
+2021-02-25 18:43:46,001: File Found, Processing...
+2021-02-25 18:43:46,001: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\857bd591-ff02-4bd1-824c-94aa48723012
+2021-02-25 18:43:49,888: Insertion Status - Success 
+2021-02-25 18:43:49,889: 127.0.0.1 - - [25/Feb/2021 18:43:49] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 18:44:21,504: Id Created - 6e18ada3-c96a-436d-a804-73eac80e3454
+2021-02-25 18:44:24,265: File Found, Processing...
+2021-02-25 18:44:24,265: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\6e18ada3-c96a-436d-a804-73eac80e3454
+2021-02-25 18:44:29,519: Insertion Status - Success 
+2021-02-25 18:44:29,520: 127.0.0.1 - - [25/Feb/2021 18:44:29] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 18:48:32,345: Id Created - 38dcd8d2-c861-4695-bf7b-8f6c82702a9a
+2021-02-25 18:48:36,275: File Found, Processing...
+2021-02-25 18:48:36,313: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\38dcd8d2-c861-4695-bf7b-8f6c82702a9a
+2021-02-25 18:48:39,700: Insertion Status - Success 
+2021-02-25 18:48:39,702: 127.0.0.1 - - [25/Feb/2021 18:48:39] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 18:49:02,480: Id Created - 1f7f89b2-1c36-4938-b2c3-5077b8ca44e3
+2021-02-25 18:49:04,165: File Found, Processing...
+2021-02-25 18:49:04,165: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\1f7f89b2-1c36-4938-b2c3-5077b8ca44e3
+2021-02-25 18:49:07,377: Insertion Status - Success 
+2021-02-25 18:49:07,379: 127.0.0.1 - - [25/Feb/2021 18:49:07] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-25 18:49:21,914: Id Created - 1811697e-bd21-40e3-b46b-2b8d37425161
+2021-02-25 18:49:24,232: File Found, Processing...
+2021-02-25 18:49:24,234: Upload Successful, uploaded at D:\DSW\APIS(WITH_DB)\liveliness_final\data_folder\2021-02-25\1811697e-bd21-40e3-b46b-2b8d37425161
+2021-02-25 18:49:28,421: Insertion Status - Success 
+2021-02-25 18:49:28,424: 127.0.0.1 - - [25/Feb/2021 18:49:28] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:26:56,351:  * Restarting with stat
+2021-02-27 02:27:00,315:  * Debugger is active!
+2021-02-27 02:27:00,324:  * Debugger PIN: 418-351-934
+2021-02-27 02:27:02,588:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-27 02:27:09,728: 127.0.0.1 - - [27/Feb/2021 02:27:09] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:27:15,481: ########### 405 Method Not Allowed: The method is not allowed for the requested URL. ###########
+Traceback (most recent call last):
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "C:\Users\Dell\anaconda3\envs\liveness\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-02-27 02:27:15,518: 127.0.0.1 - - [27/Feb/2021 02:27:15] "[31m[1mGET /liveness HTTP/1.1[0m" 405 -
+2021-02-27 02:27:25,098: File Found, Processing...
+2021-02-27 02:27:28,935: 127.0.0.1 - - [27/Feb/2021 02:27:28] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:28:35,304: 127.0.0.1 - - [27/Feb/2021 02:28:35] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:28:45,530: File Found, Processing...
+2021-02-27 02:28:49,034: 127.0.0.1 - - [27/Feb/2021 02:28:49] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:30:01,291:  * Detected change in 'D:\\Deep_blue\\liveliness_final\\app1.py', reloading
+2021-02-27 02:30:01,757:  * Restarting with stat
+2021-02-27 02:30:05,409:  * Debugger is active!
+2021-02-27 02:30:05,415:  * Debugger PIN: 418-351-934
+2021-02-27 02:30:05,429:  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2021-02-27 02:30:05,594: File Found, Processing...
+2021-02-27 02:30:08,395: 127.0.0.1 - - [27/Feb/2021 02:30:08] "[37mPOST /liveness HTTP/1.1[0m" 200 -
+2021-02-27 02:30:16,344: File Found, Processing...
+2021-02-27 02:30:20,840: 127.0.0.1 - - [27/Feb/2021 02:30:20] "[37mPOST /liveness HTTP/1.1[0m" 200 -

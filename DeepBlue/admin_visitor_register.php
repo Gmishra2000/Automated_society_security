@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/admin_val.php');
 include('includes/header.php');
 include('includes/navbar.php');
 
@@ -25,7 +26,7 @@ include('includes/navbar.php');
                     <div class="form-group">
                         <label>House Number</label>
 
-                        <input type="text" name="houseNo" class="form-control" placeholder="Enter House No of Society Registered as Resident" required>
+                        <input type="text" name="houseNo" class="form-control" placeholder="Enter house no by which society is registered in residence" required>
                     </div>
 
                     <div class="form-group">

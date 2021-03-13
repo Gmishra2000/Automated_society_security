@@ -2,11 +2,16 @@ import logging
 logging.basicConfig(filename='app.log', level=logging.ERROR)
 from flask import Flask
 from flask import Flask, request, jsonify, render_template
+# import liveness_final
+from liveness_final.liveness_file import *
+# from liveness_file import *
 import os
 from os.path import join
 # import pymysql
 import json
 import pymysql
+import requests
+import cv2
 
 
 from face_emb import FaceRecognition
@@ -65,17 +70,84 @@ def handle_exception(e):
 
 #### end of error handlers ####
 
+@app.route('/liveness', methods = ['POST'])
+def liveness():
+
+	files = request.files.getlist('files[]')
+	
+	if files[0].filename == '':
+		return jsonify({'result':'video file not found'})
+	
+	for file in files:
+		filename = file.filename
+		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
+	
+	score = liveness_check(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+	if score>10:
+		return jsonify({"result":"live","value":score})
+	else:
+		return jsonify({"result":"fake","value":score})
+
+
+	
+
+
+
+	# uid = request.form["id"]
+	# img = request.form["img_name"]
+	
+	# img_path = os.path.join("DeepBlue\\upload\\visitor",img)
+	
+	# result = obj.register_img(uid,img_path)
+
+	# return jsonify({"result":result[0],"message":result[1]})
+
 
 #registering new visitor
 @app.route('/register', methods = ['POST'])
 def register():
 
-	uid = request.form["id"]
-	img = request.form["img_name"]
+	uid = int(request.form['id'])
+	# houseno = request.form['houseno']
+	# aadhar = request.form['aadhar']
+	# phone = request.form['phone']
+	# designation = request.form['designation']
+	img_file = request.files['img_name']
+
+
+	print(uid)
+	filename = img_file.filename
+	print(img_file)
+	filename = filename.split("/")[-1]
+
+	# img = request.form["img_name"]
+	# img_path = "DeepBlue/visitor_images_dummy/" + img
+	# for file in img_file:
+	# 	filename = file.filename
+	# 	print(filename)
+
+
 	
-	img_path = os.path.join("DeepBlue\\upload\\visitor",img)
+	# print(img_file)
+	print("**********")
+	# filename = img_file.filename
+	print(filename)
+	print("**********")
+
+	# print(filename.filename)
+	img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
 	
+	# print(img_path)
+	# print(uid)
+	# img = cv2.imread(img_path)
+	# cv2.imshow('ImageWindow', img)
+	# cv2.waitKey()
+	
+	img_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 	result = obj.register_img(uid,img_path)
+	# print(result)
 
 	return jsonify({"result":result[0],"message":result[1]})
 	
@@ -84,13 +156,34 @@ def register():
 @app.route('/update', methods = ['POST'])
 def update():
 
-	uid = request.form["id"]
-	img = request.form["img_name"]
 	
-	img_path = os.path.join("DeepBlue\\upload\\visitor",img)
+	img_file = request.files['img_name']
+	uid = int(request.form['id'])
+
+	# print(uid)
+	filename = img_file.filename
+	# print(img_file)
+	filename = filename.split("/")[-1]
+
+	img_file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
+	img_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+	
+	# img_path = os.path.join("DeepBlue\\upload\\visitor",img)
+	# print(img_file)
+	print("**********")
+	print(uid,type(uid))
+	# filename = img_file.filename
+	print(filename)
+	print(img_path)
+	print("**********")
+
+	
+
 	
 	result = obj.update_img(uid,img_path)
-
+	print(result[0])
+	print(result[1])
 	return jsonify({"result":result[0],"message":result[1]})
 	
 
@@ -99,7 +192,7 @@ def update():
 @app.route('/delete', methods = ['POST'])
 def delete():
 
-	uid = request.form["id"]
+	uid = int(request.form["id"])
 	
 	result = obj.delete_embedding(uid)
 
@@ -119,31 +212,67 @@ def recognize():
 	file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
 	
 	rpi_image=os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-	
+	# print(type(temp))
 
 	
 
 	result = obj.get_id(rpi_image)
-	print(result)
+	# print(result)
 
 	# filelist = [ f for f in os.listdir(os.path.join(app.config['UPLOAD_FOLDER']))]
 	# #code to remove the mp4 file below 2 lines
 	# for i in filelist:
 	# 	os.remove(os.path.join(app.config['UPLOAD_FOLDER'], i))
-	id=result[0]
+	id=result[1]
+	# print(type(id))
 	status ="unread"
 	data=(id,temp,status)
 	# status ="unread"
+	# if result[]
+
+	# Check here the if else condition
 	insert1 = "INSERT INTO dailyvisit(id, temp,status) VALUES (%s,%s,%s);"
+
+
+	# select1 = "SELECT Name FROM visitor WHERE id = ?"
 
 	
 	#executing the quires
 	cursor.execute(insert1,data)
+
+
+	# cursor.execute("SELECT Name FROM visitor WHERE id = %d" % int(id))
+
+	# myresult = cursor.fetchall()
+	# name = myresult[0][0]
+	# # print(name)
+	# # print(type(name))
+
+	# # for x in myresult:
+	# # 	print(x)
+	# # 	print(type(x))
 	
-	#commiting the connection then closing it.
+	# #commiting the connection then closing it.
 
 	connection.commit()
 	connection.close()
+
+	# url = "http://localhost/Automated_Security_System/testingapi.php"
+	# print(id)
+	# print(name)
+	# print(temp)
+
+	# # payload="{\"id\":\id,\r\n\"name\":\name,\r\n\"temp\":\temp\r\n}"
+	# payload={"id":id,"name":name,"temp":temp}
+	# headers = {
+	# 'Content-Type': 'application/json'
+	# }
+
+	# response = requests.request("POST", url, headers=headers, data=json.dumps(payload))
+	# print(response)
+
+	# print(response.text)
+
 
 	return jsonify({"result":result[0],"message":result[1]})
 	

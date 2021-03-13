@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/user_val.php');
 include('includes/header.php');
 include('includes/user_navbar.php');
 
@@ -37,7 +38,7 @@ function House_No($connection, $email_data)
                     <div class="form-group">
                         <label>House Number</label>
 
-                        <input type="text" name="houseNo" value="<?php echo House_No($connection, $email_data); ?>" class="form-control" required>
+                        <input type="text" disabled name="houseNo" value="<?php echo House_No($connection, $email_data); ?>" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Aadhar Number</label>

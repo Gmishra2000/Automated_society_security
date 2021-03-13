@@ -1,5 +1,6 @@
 <?php
 include('security.php');
+include('validation/user_val.php');
 include('includes/header.php');
 include('includes/user_navbar.php');
 

@@ -12,10 +12,14 @@ if (isset($_POST['login_btn'])) {
     $query_run = mysqli_query($connection, $query);
     $row = mysqli_fetch_assoc($query_run);
     $_SESSION['sess_userrole'] = $row['usertype'];
-
-    // 
+   
+    
     $user_query = "SELECT * FROM user where email='$email_login' AND password='$password_login' ";
     $user_query_run = mysqli_query($connection, $user_query);
+    // $row1 = mysqli_fetch_assoc($user_query_run);
+    // $_SESSION['sess_role']= $row1['usertype'];
+    
+
 
 
 
@@ -32,11 +36,9 @@ if (isset($_POST['login_btn'])) {
         $_SESSION['username'] = $email_login;
         header('Location: security_page.php');
     } else if (mysqli_fetch_array($user_query_run)) {
+        $_SESSION['sess_userrole']="user";
 
         $_SESSION['username'] = $email_login;
-        // $_SESSION['status'] = "Login is Successfull";
-        //$_SESSION['status_code'] = "success";
-
         header('Location:user_index.php');
     } else {
         $_SESSION['status'] = 'Email id/Password is Invalid';

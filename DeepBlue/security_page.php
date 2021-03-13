@@ -1,5 +1,7 @@
 <?php
+// include('security.php');
 include('security.php');
+include('validation/security_val.php');
 include('includes/header.php');
 include('includes/security_navbar.php');
 
@@ -17,6 +19,68 @@ include('includes/security_navbar.php');
 
 
     <!-- Content Row -->
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Registered Security Person</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                <?php
+                                $query = "SELECT id FROM register where usertype ='security'";
+                                $query_run = mysqli_query($connection, $query);
+
+                                $row = mysqli_num_rows($query_run);
+                                echo '<h1> ' . $row . '</h1>';
+                                ?>
+                                <!--<h4>Total Admin: *</h4>-->
+
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total No of Visitors Entered </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+
+                                <?php
+                                $query = "SELECT id FROM dailyrecord ORDER BY id";
+                                $query_run = mysqli_query($connection, $query);
+
+                                $row = mysqli_num_rows($query_run);
+                                echo '<h1> ' . $row . '</h1>';
+                                ?>
+
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+
+
+        <!-- Pending Requests Card Example -->
+
+    </div>
 
 
 
